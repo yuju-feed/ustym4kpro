@@ -3951,14 +3951,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-dbg
-Version: 1.64-20250909-git112+db7e2860+db7e28682c-r1
+Version: 1.66-20250920-git114+82597a50+82597a55fb-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 3819c91fa74b995a67c91920d034c518
-SHA256sum: adbc8b585c3cdf6a14cda9a2c83e75603ec233b36861a627b784630d332e205c
+MD5Sum: a2d44e464240088b5ebd6d0416a1484b
+SHA256sum: 52073512ed859b1335a36fb3ba69ab03c4ef546d0051bc0ab2e625dd68ffd7ca
 Size: 646
-Filename: enigma2-plugin-extensions-xklass-dbg_1.64-20250909-git112+db7e2860+db7e28682c-r1_all.ipk
+Filename: enigma2-plugin-extensions-xklass-dbg_1.66-20250920-git114+82597a50+82597a55fb-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Debugging files
 OE: enigma2-plugin-extensions-xklass
@@ -3967,15 +3967,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-dev
-Version: 1.64-20250909-git112+db7e2860+db7e28682c-r1
-Recommends: enigma2-plugin-extensions-xklass (= 1.64-20250909-git112+db7e2860+db7e28682c-r1), python3-pillow-dev, python3-requests-dev, wget-dev
+Version: 1.66-20250920-git114+82597a50+82597a55fb-r1
+Recommends: enigma2-plugin-extensions-xklass (= 1.66-20250920-git114+82597a50+82597a55fb-r1), python3-pillow-dev, python3-requests-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 8afdb3fa0bbebbc63a50cc199f31559b
-SHA256sum: 1bfa77bb257b6024404db4e2ba555ceab6506d88e23f4fd18b9844cb1ddeacec
+MD5Sum: 8a6b5fd59672aa82326ac687aeeedfe3
+SHA256sum: 71f90ee83c1a020f9c5952c042997b8f5ed772f51fe28b81fb9f2ac34cb81170
 Size: 710
-Filename: enigma2-plugin-extensions-xklass-dev_1.64-20250909-git112+db7e2860+db7e28682c-r1_all.ipk
+Filename: enigma2-plugin-extensions-xklass-dev_1.66-20250920-git114+82597a50+82597a55fb-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Development files
 OE: enigma2-plugin-extensions-xklass
@@ -3984,14 +3984,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-src
-Version: 1.64-20250909-git112+db7e2860+db7e28682c-r1
+Version: 1.66-20250920-git114+82597a50+82597a55fb-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 087602c508d427b80d912af3fa1322ba
-SHA256sum: 3c33d31dcd949ea85b88244607c452649d5a39e8002199685c26e897aff91c1b
-Size: 105098
-Filename: enigma2-plugin-extensions-xklass-src_1.64-20250909-git112+db7e2860+db7e28682c-r1_all.ipk
+MD5Sum: 1431c3be0db2b771bb355962702639c5
+SHA256sum: 8334594f2fe8b22adbf8b2cb97a71528f29712c62a404a6805c28ee183705f9e
+Size: 105254
+Filename: enigma2-plugin-extensions-xklass-src_1.66-20250920-git114+82597a50+82597a55fb-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Source files
 OE: enigma2-plugin-extensions-xklass
@@ -4000,15 +4000,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass
-Version: 1.64-20250909-git112+db7e2860+db7e28682c-r1
+Version: 1.66-20250920-git114+82597a50+82597a55fb-r1
 Depends: python3-pillow, python3-requests, wget
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 7e57c203113ab0c24a91ce8a8b9140e5
-SHA256sum: 3d57e1610c1c09b42cd2e99930993f56b30baead9198b3a3caad9e8400d35beb
-Size: 6038134
-Filename: enigma2-plugin-extensions-xklass_1.64-20250909-git112+db7e2860+db7e28682c-r1_all.ipk
+MD5Sum: 3f58839de392232fa93d681d9e01ca4b
+SHA256sum: 37583d8ddd10a96489438b6c87b614ce9b156ad8465cdd7fa065958ba5f4c703
+Size: 6037830
+Filename: enigma2-plugin-extensions-xklass_1.66-20250920-git114+82597a50+82597a55fb-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
 OE: enigma2-plugin-extensions-xklass
@@ -4017,14 +4017,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: 5.14-20250917-git582+03ab4be0+03ab4be593-r1
+Version: 5.15-20250920-git583+51a51420+51a51425cd-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 4c48f7692c15318a932a6df14be475d9
-SHA256sum: 1cf1bcd1b7459c9a9cf7a9b77f5adf514ee02eeaa31654f708c13eb46805bab7
-Size: 638
-Filename: enigma2-plugin-extensions-xstreamity-dbg_5.14-20250917-git582+03ab4be0+03ab4be593-r1_all.ipk
+MD5Sum: 779a1c7b3003f8499942dcdaae505173
+SHA256sum: 0b57ed7197ced0a3605bf4fe5ade8f9fce58d35eb5466fcb3b054706cebe24a5
+Size: 636
+Filename: enigma2-plugin-extensions-xstreamity-dbg_5.15-20250920-git583+51a51420+51a51425cd-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -4033,15 +4033,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: 5.14-20250917-git582+03ab4be0+03ab4be593-r1
-Recommends: enigma2-plugin-extensions-xstreamity (= 5.14-20250917-git582+03ab4be0+03ab4be593-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 5.15-20250920-git583+51a51420+51a51425cd-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 5.15-20250920-git583+51a51420+51a51425cd-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 6e8d8ac14f17e744ad0f53a474ee2af1
-SHA256sum: fd5e81cb63c7a92cccc8732d66d767e711bdade548ba21067c05c47ad0bdc3c5
-Size: 708
-Filename: enigma2-plugin-extensions-xstreamity-dev_5.14-20250917-git582+03ab4be0+03ab4be593-r1_all.ipk
+MD5Sum: 3d49f150fadde97194c1dfadd7fed317
+SHA256sum: 7671e6b693cf7a4026765898039c224298cc851871279ac63562330b2806d495
+Size: 706
+Filename: enigma2-plugin-extensions-xstreamity-dev_5.15-20250920-git583+51a51420+51a51425cd-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -4050,14 +4050,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: 5.14-20250917-git582+03ab4be0+03ab4be593-r1
+Version: 5.15-20250920-git583+51a51420+51a51425cd-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 66e106c3f7ae3194b0a29b79638a626b
-SHA256sum: 8fe67339513b23957006b1016ae940a8db52feeaddeffdb7d645caef749c4af0
-Size: 101732
-Filename: enigma2-plugin-extensions-xstreamity-src_5.14-20250917-git582+03ab4be0+03ab4be593-r1_all.ipk
+MD5Sum: b857d703a1b14a47b922ae861b859834
+SHA256sum: 396004151d782e080ef0595637465bf3b0e3d94d95b221c17b0793196996ae9a
+Size: 101802
+Filename: enigma2-plugin-extensions-xstreamity-src_5.15-20250920-git583+51a51420+51a51425cd-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -4066,15 +4066,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: 5.14-20250917-git582+03ab4be0+03ab4be593-r1
+Version: 5.15-20250920-git583+51a51420+51a51425cd-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 7207d1bd9ce0b8c7d8dc40460e05b8e8
-SHA256sum: f3eae12dc37e3f2651c67c008b404188cd24b509a0a494a50290853206427a51
-Size: 4022226
-Filename: enigma2-plugin-extensions-xstreamity_5.14-20250917-git582+03ab4be0+03ab4be593-r1_all.ipk
+MD5Sum: 3f251941a7c78f6b46b8a13342c45f38
+SHA256sum: 4f50a1159a691eaf6103e3c048fd306ff9b2948186b089e04a6eff533af52a94
+Size: 4022626
+Filename: enigma2-plugin-extensions-xstreamity_5.15-20250920-git583+51a51420+51a51425cd-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
@@ -4342,14 +4342,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-e2-darkos-dbg
-Version: 1.0+git275+1f9c7450+1f9c745e6d-r0
+Version: 1.0+git277+302b0d00+302b0d08ec-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 9872d35c74baceb2ce056d2008eaa2b9
-SHA256sum: 4a979752bfd0dd3b3f37f9dcdbafa092a40d2f026d0af3080d91b0eb17ab8347
+MD5Sum: c5c3e5fae8e321ed9164240942a7dc23
+SHA256sum: a1c92f606a0d7352d64c102717ad2f1ed05ec1736064176b48d7f82005cab88e
 Size: 620
-Filename: enigma2-plugin-skins-e2-darkos-dbg_1.0+git275+1f9c7450+1f9c745e6d-r0_all.ipk
+Filename: enigma2-plugin-skins-e2-darkos-dbg_1.0+git277+302b0d00+302b0d08ec-r0_all.ipk
 Source: enigma2-plugin-skins-e2-darkos.bb
 Description: enigma2-plugin-skins-e2-darkos version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-skins-e2-darkos
@@ -4358,15 +4358,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2-darkos-dev
-Version: 1.0+git275+1f9c7450+1f9c745e6d-r0
-Recommends: enigma2-plugin-skins-e2-darkos (= 1.0+git275+1f9c7450+1f9c745e6d-r0)
+Version: 1.0+git277+302b0d00+302b0d08ec-r0
+Recommends: enigma2-plugin-skins-e2-darkos (= 1.0+git277+302b0d00+302b0d08ec-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 9293f2f0641ffddd438cf35e472fdbb3
-SHA256sum: 4636187668334c9f4ad2027488639eacb7b3550926b450ffea9616c8672a22d1
-Size: 656
-Filename: enigma2-plugin-skins-e2-darkos-dev_1.0+git275+1f9c7450+1f9c745e6d-r0_all.ipk
+MD5Sum: fbff372fbaca5dc9f4943654135b8400
+SHA256sum: b4e1a2f07fddc60950f725ea4ad701768bd391a07636ef80f8841491116cffdf
+Size: 654
+Filename: enigma2-plugin-skins-e2-darkos-dev_1.0+git277+302b0d00+302b0d08ec-r0_all.ipk
 Source: enigma2-plugin-skins-e2-darkos.bb
 Description: enigma2-plugin-skins-e2-darkos version 1.0+git-r0 - Development files
 OE: enigma2-plugin-skins-e2-darkos
@@ -4375,15 +4375,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-e2-darkos
-Version: 1.0+git275+1f9c7450+1f9c745e6d-r0
+Version: 1.0+git277+302b0d00+302b0d08ec-r0
 Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: fbc371b525af79dee84d9dc73ce7297a
-SHA256sum: 55041daa1c268be80e3bdad27544449295b9e98bd1d609ccaf250013d645ecf4
-Size: 3073112
-Filename: enigma2-plugin-skins-e2-darkos_1.0+git275+1f9c7450+1f9c745e6d-r0_all.ipk
+MD5Sum: 342fb239b07ecb786d731efab4e84676
+SHA256sum: 3c10eb02e631f571e777e97b38830afda85732696a784d906a61ace4ae386fc8
+Size: 3073496
+Filename: enigma2-plugin-skins-e2-darkos_1.0+git277+302b0d00+302b0d08ec-r0_all.ipk
 Source: enigma2-plugin-skins-e2-darkos.bb
 Description: enigma2-plugin-skins-e2-darkos version 1.0+git-r0
 OE: enigma2-plugin-skins-e2-darkos
@@ -4943,9 +4943,9 @@ Version: 0.1+git0+0-r0
 Section: base
 Architecture: all
 Maintainer: littlesat
-MD5Sum: e12b04683e98c6ed437729e55ba8fe28
-SHA256sum: 01692440a184d99321649a54ec3a786a1f1e0dcf397485867034c7a995d7265a
-Size: 2743168
+MD5Sum: dcb1ed53f7fb50cf46a377db0f2e415e
+SHA256sum: 43cb3451670e2bf3cc5a3af9427c6f22f2dbb64bbcf9b4821f5220dcd95be4de
+Size: 2743220
 Filename: enigma2-plugin-skins-pli-hd_0.1+git0+0-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
 Description: PLi HD skin
