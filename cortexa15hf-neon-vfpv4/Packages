@@ -1469,15 +1469,15 @@ License: LGPL-2.0-only | LGPL-2.1-only
 Priority: optional
 
 Package: astra-sm-dbg
-Version: 0.2-r0
+Version: 0.2+git${GITPKGV}0+450d4ec79d-r0
 Recommends: glibc-dbg, libaio-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 305acb54ed1dee84c7c3ae0da84a641b
-SHA256sum: 00141f5bcf477adcaaecc679deabb9b3267475182b6ed76db2819e4efd00362d
-Size: 819980
-Filename: astra-sm-dbg_0.2-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8e97d36fc0a28611a66e31323017699b
+SHA256sum: 9bf623b424a9ac5f9a86ec11b9ca815ceaa7860c4eaaf383e1cf836b270421d3
+Size: 820660
+Filename: astra-sm-dbg_0.2+git${GITPKGV}0+450d4ec79d-r0_cortexa15hf-neon-vfpv4.ipk
 Source: astra-sm_0.2.bb
 Description: Astra (Advanced Streamer) SlonikMod - Debugging files
 OE: astra-sm
@@ -1486,15 +1486,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: astra-sm-dev
-Version: 0.2-r0
-Recommends: astra-sm (= 0.2-r0), glibc-dev, initscripts-dev, libaio-dev, update-rc.d-dev
+Version: 0.2+git${GITPKGV}0+450d4ec79d-r0
+Recommends: astra-sm (= 0.2+git${GITPKGV}0+450d4ec79d-r0), glibc-dev, initscripts-dev, libaio-dev, update-rc.d-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: b387bcda994e3dbf6d87042f9496664d
-SHA256sum: a9bb809edae0c77e4c280ffca21b82027d48d4a519197b77005697ef103e8fed
-Size: 824
-Filename: astra-sm-dev_0.2-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b8ebd45715dce7c427d5ec1140572984
+SHA256sum: 21e1da3137f8472246e2bfd692afab7f0e8862a6d7f00eb9d5bded7bec9fcfb9
+Size: 852
+Filename: astra-sm-dev_0.2+git${GITPKGV}0+450d4ec79d-r0_cortexa15hf-neon-vfpv4.ipk
 Source: astra-sm_0.2.bb
 Description: Astra (Advanced Streamer) SlonikMod - Development files
 OE: astra-sm
@@ -1503,16 +1503,16 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: astra-sm
-Version: 0.2-r0
+Version: 0.2+git${GITPKGV}0+450d4ec79d-r0
 Depends: libaio1 (>= 0.3.113), libc6 (>= 2.41+git0+0c76c95162)
 Recommends: update-rc.d
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: d87b1092966a7c09ebd23d05a2d71b65
-SHA256sum: 622587d25612aa9ed3b5f976ff7e8bef2fc136c15e1a07af89dc1d03e23624b9
-Size: 211744
-Filename: astra-sm_0.2-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 4156c1b9f757ef524f12eb9ea751c474
+SHA256sum: 07c5f164cd2adbf9f7ea5be26d6aed6479699c9ee80e7d51715760a9b2181b4f
+Size: 211760
+Filename: astra-sm_0.2+git${GITPKGV}0+450d4ec79d-r0_cortexa15hf-neon-vfpv4.ipk
 Source: astra-sm_0.2.bb
 Description: Astra (Advanced Streamer) SlonikMod
 OE: astra-sm
@@ -4909,6 +4909,57 @@ HomePage: http://www.gnu.org/software/binutils/
 License: GPL-3.0-only
 Priority: optional
 
+Package: bitratecalc-dbg
+Version: gitNone-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 42b46e6e19b8cd309f78b5cadf8d106e
+SHA256sum: d8cb76cf0eade1c624dc2a95bbdfdfe45c07caf1ddb98f3ae5e1a37a3eb82c44
+Size: 114812
+Filename: bitratecalc-dbg_gitNone-r0_cortexa15hf-neon-vfpv4.ipk
+Source: bitratecalc.bb
+Description: bitratecalc version git-r0 - Debugging files
+OE: bitratecalc
+HomePage: https://gisclub.tv
+License: CC-BY-NC-ND-4.0
+Priority: optional
+
+Package: bitratecalc-dev
+Version: gitNone-r0
+Recommends: bitratecalc (= gitNone-r0), enigma2-dev, glibc-dev, libgcc-dev, libstdc++-dev, python3-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 6282004d94efc3166566a3a02a9562d5
+SHA256sum: bfe46f87cf69ee2a324b603cef2db68b83546f49ea13244ebe60c750efdd2db0
+Size: 680
+Filename: bitratecalc-dev_gitNone-r0_cortexa15hf-neon-vfpv4.ipk
+Source: bitratecalc.bb
+Description: bitratecalc version git-r0 - Development files
+OE: bitratecalc
+HomePage: https://gisclub.tv
+License: CC-BY-NC-ND-4.0
+Priority: optional
+
+Package: bitratecalc
+Version: gitNone-r0
+Depends: libc6 (>= 2.41+git0+0c76c95162), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: b23a259e946eafbacda2917b45626391
+SHA256sum: 336bdad1c77c648543dfc68d5445576c3cb92ca3a686a387d0fee9a2cbf97956
+Size: 7890
+Filename: bitratecalc_gitNone-r0_cortexa15hf-neon-vfpv4.ipk
+Source: bitratecalc.bb
+Description: bitratecalc version git-r0
+OE: bitratecalc
+HomePage: https://gisclub.tv
+License: CC-BY-NC-ND-4.0
+Priority: optional
+
 Package: bitstream-dbg
 Version: 1.4+git504+8b2bf570+8b2bf575d5-r0
 Section: devel
@@ -5666,8 +5717,8 @@ Recommends: glibc-dbg, libxcrypt-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 32acc6325f907c685ed5569c325c7577
-SHA256sum: 3876335c9c7769472fc44c20a829346a244e7d59b60945cb72e5bdfd35b6184a
+MD5Sum: 776bec8e796f64de40088ee9bae0f8f4
+SHA256sum: 6f285c89360430e97a51bdc952a127d523eea503113e5579da74b3b6ec140c8e
 Size: 1455700
 Filename: busybox-dbg_1.37.0-r0.3_cortexa15hf-neon-vfpv4.ipk
 Source: busybox_1.37.0.bb
@@ -5683,8 +5734,8 @@ Recommends: busybox (= 1.37.0-r0.3), glibc-dev, initscripts-dev, libxcrypt-dev, 
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 83948feebdf1d21af4c3a753a9117205
-SHA256sum: 8e4185b36b758cdb9279cdffddab8af7960880c4c8032e6a920021e8d301b250
+MD5Sum: 3c8b59f1963711229b7646519272b687
+SHA256sum: 937fa37d24c82318830ce428e9ae30cec5da712f712f50192e50adcdf2a453db
 Size: 972
 Filename: busybox-dev_1.37.0-r0.3_cortexa15hf-neon-vfpv4.ipk
 Source: busybox_1.37.0.bb
@@ -5700,8 +5751,8 @@ Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 5020a172a88a689cc96e6a87774aff09
-SHA256sum: cc6096fd50a0e28ec8e35c89de1de992d0d54b14fe81ad9008531311b6f84448
+MD5Sum: 55eae844353274e744e707b18f01b1bd
+SHA256sum: e9aa5ef51a2f9242e78f7129832b1df8da58f9279f9b328e98c3e23a5805ae66
 Size: 2212
 Filename: busybox-hwclock_1.37.0-r0.3_cortexa15hf-neon-vfpv4.ipk
 Source: busybox_1.37.0.bb
@@ -5720,9 +5771,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: c41f42c184c60f7d2450c0eb42f6e830
-SHA256sum: f69b03b707eeb27734878f3b37c47b8ce05ebe87f6beb7826421a1c28e10e7e8
-Size: 1826
+MD5Sum: 854fc6e19d6b1b5ca75dbf59bbe9a17d
+SHA256sum: a28fbb76a3093213737a2e6ffd3c40052fc5275de20a94596bce605fc0f4ee7c
+Size: 1824
 Filename: busybox-inetd_1.37.0-r0.3_cortexa15hf-neon-vfpv4.ipk
 Source: busybox_1.37.0.bb
 Description: Tiny versions of many common UNIX utilities in a single small executable
@@ -5737,9 +5788,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 064bbff5af06378af4da09eae3475188
-SHA256sum: 4766e704a1210945714d5b1aeb5807bc0524eb6ab58452de5ff92dcb6705373c
-Size: 2696
+MD5Sum: 718ff407db57d0c494913e388edb09cd
+SHA256sum: 17f3b78abc4c5417bfd095575ff6865f13042f93d147357024697811ffe54898
+Size: 2692
 Filename: busybox-mdev_1.37.0-r0.3_cortexa15hf-neon-vfpv4.ipk
 Source: busybox_1.37.0.bb
 Description: Tiny versions of many common UNIX utilities in a single small executable
@@ -5756,8 +5807,8 @@ Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 0f7891c10a7cb165b1cfc975b3cf104a
-SHA256sum: ca9642e2c4ff2fb1bd2eb428632ca4329ab572631a3838ad9626cafb2cf97874
+MD5Sum: 1cc4cdff4164d2b1ed29fdd2623ad921
+SHA256sum: ba9caded564b73700f98a65fa36fc840491f66f7bd1e42b02e06b03db2dda18b
 Size: 2694
 Filename: busybox-syslog_1.37.0-r0.3_cortexa15hf-neon-vfpv4.ipk
 Source: busybox_1.37.0.bb
@@ -5775,9 +5826,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 98b680b7919f9c978b8d27bc316adfa8
-SHA256sum: db57e58bba428a03ad41b888a27d8c821c8048f91b9683e2a242bb6faca8a786
-Size: 1516
+MD5Sum: 749145cd631fb584e466402d6a6ffb05
+SHA256sum: 57c73e52fd3550c7a4b496a4bed4e5dec7676e35c441571c5de9c5581590ff8d
+Size: 1514
 Filename: busybox-telnetd_1.37.0-r0.3_cortexa15hf-neon-vfpv4.ipk
 Source: busybox_1.37.0.bb
 Description: Tiny versions of many common UNIX utilities in a single small executable
@@ -5791,8 +5842,8 @@ Version: 1.37.0-r0.3
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: f301389e368d607d38b1b8f4b07d64c6
-SHA256sum: 10f1b96b15821299b3892a920f651908132e02b347fcb1926be1357d62097f4b
+MD5Sum: 14c2ec3c270d1ee8d03f9f6a90a62fd1
+SHA256sum: 2e625ecc8700e523cdb331a002264da387867224830ed1ad6a4bd033c05e3ef9
 Size: 1762
 Filename: busybox-udhcpc_1.37.0-r0.3_cortexa15hf-neon-vfpv4.ipk
 Source: busybox_1.37.0.bb
@@ -5809,9 +5860,9 @@ Recommends: busybox-inetd, busybox-telnetd, busybox-udhcpc
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 8b6cd8e062dd8365169f75194b8aa51b
-SHA256sum: 4d19d11fcddaafbf4843dffac27a562904319254eea5ea4f24d8d9afdc6a6fab
-Size: 454744
+MD5Sum: 124609f0dd32f1a52b27530d01af4d1d
+SHA256sum: e29354decf48addf6d14e586067af7a45085e9d303cd1bde8e4222c0ce9c6973
+Size: 454746
 Filename: busybox_1.37.0-r0.3_cortexa15hf-neon-vfpv4.ipk
 Source: busybox_1.37.0.bb
 Description: Tiny versions of many common UNIX utilities in a single small executable
@@ -9523,15 +9574,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-bitrate-dbg
-Version: 2.0+git39+d55ee410+d55ee41490-r1
+Version: 2.0+gitNone0+c75f143562-r1
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: b0e4e8a30475141803eb42c0468fe691
-SHA256sum: ab3ba0bfc2b9f8bd25c6ccfdf64a4ec7a68f973aa14f97e540d17bad74028f0b
+MD5Sum: f5b1a75bf168d90efb779bf49fd82e39
+SHA256sum: 2bc4ac3760a88b2f0721d8de41f31f294ce98d1a1cfb9d32da2f05b83eccde20
 Size: 44656
-Filename: enigma2-plugin-extensions-bitrate-dbg_2.0+git39+d55ee410+d55ee41490-r1_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-bitrate-dbg_2.0+gitNone0+c75f143562-r1_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-bitrate.bb
 Description: enigma2-plugin-extensions-bitrate version 2.0+git-r1 - Debugging files
 OE: enigma2-plugin-extensions-bitrate
@@ -9540,15 +9591,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-bitrate-dev
-Version: 2.0+git39+d55ee410+d55ee41490-r1
-Recommends: enigma2-dev, enigma2-plugin-extensions-bitrate (= 2.0+git39+d55ee410+d55ee41490-r1), glibc-dev, libgcc-dev, libstdc++-dev
+Version: 2.0+gitNone0+c75f143562-r1
+Recommends: enigma2-dev, enigma2-plugin-extensions-bitrate (= 2.0+gitNone0+c75f143562-r1), glibc-dev, libgcc-dev, libstdc++-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 59a91ef8a57f9bf206858ead2713c8eb
-SHA256sum: 251ec6a629fb25e8ac40f570b16d6fe75dc1cd02bd99acf1b47191e34fb95a2a
-Size: 672
-Filename: enigma2-plugin-extensions-bitrate-dev_2.0+git39+d55ee410+d55ee41490-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d02fea84c6bf39cabea64b5c96db508e
+SHA256sum: eb15ab6def39191f59e17da04ddfcbf9e955b3cbbb9b6ea9e99dc3a559137b1d
+Size: 674
+Filename: enigma2-plugin-extensions-bitrate-dev_2.0+gitNone0+c75f143562-r1_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-bitrate.bb
 Description: enigma2-plugin-extensions-bitrate version 2.0+git-r1 - Development files
 OE: enigma2-plugin-extensions-bitrate
@@ -9557,17 +9608,17 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-bitrate
-Version: 2.0+git39+d55ee410+d55ee41490-r1
+Version: 2.0+gitNone0+c75f143562-r1
 Depends: libc6 (>= 2.41+git0+0c76c95162), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0)
 Replaces: enigma2-plugin-pli-bitrate
 Conflicts: enigma2-plugin-pli-bitrate
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: d78815c46ca9fe3fd55cc4d2cd1af72b
-SHA256sum: b664407128f036592ff0593ae529aa6b05ed37cab1fb736f215198301abd0fd2
-Size: 33732
-Filename: enigma2-plugin-extensions-bitrate_2.0+git39+d55ee410+d55ee41490-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 9afad7531c98a764401b1734e5e92478
+SHA256sum: 7ae2e2c8df073f9f9ce05ac266f72f18ebad6df0645859130967978331059cdf
+Size: 33762
+Filename: enigma2-plugin-extensions-bitrate_2.0+gitNone0+c75f143562-r1_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-bitrate.bb
 Description: enigma2-plugin-extensions-bitrate version 2.0+git-r1
 OE: enigma2-plugin-extensions-bitrate
@@ -9627,12 +9678,12 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-blurayplayer
 Version: 1+git158+4c276f80+4c276f81d2-r1
-Depends: libbluray (>= v1.4.0+git3074+d41111c0+d41111c1eb), libc6 (>= 2.41+git0+0c76c95162), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), python3-core
+Depends: libbluray (>= v1.4.0+git3075+48d76410+48d7641445), libc6 (>= 2.41+git0+0c76c95162), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), python3-core
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: eedb4fbc8a6bc1835a22d98a91dd854e
-SHA256sum: a67c5313bde4ccc1edcae0ce6c5a8d0c87451513055fbbf61d4a22a0b6afc371
+MD5Sum: dfe42ffe243fef95f92a5cfb577c057c
+SHA256sum: ecfcfd6daa09f04776d5ca61cb11e6efdd005214f2014f8b188fb9e541590fa0
 Size: 39788
 Filename: enigma2-plugin-extensions-blurayplayer_1+git158+4c276f80+4c276f81d2-r1_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-blurayplayer.bb
@@ -9848,9 +9899,9 @@ Depends: enigma2-plugin-extensions-dreamplex
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Alliance
-MD5Sum: 2daf4e0e9b45ca067926cf5b59194a75
-SHA256sum: c4d722f84ad56d814ed88b1230eeb15d54794cdb7392e7d9230fe3d039237772
-Size: 30180
+MD5Sum: 69a57f1c8dcd94b823743d83524495eb
+SHA256sum: 62fd64df588df7fbf2066fb64161c035c836404b3b579b0cd6ae732f7772b254
+Size: 30178
 Filename: enigma2-plugin-extensions-dreamplex-po_2.2.0+git1494+ba356910+ba35691994-r1_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-dreamplex.bb
 Description: extensions-dreamplex (translations)
@@ -9884,8 +9935,8 @@ Conflicts: enigma2-plugin-skinpacks-dreamplex-bluemod, enigma2-plugin-skinpacks-
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Alliance
-MD5Sum: c7a9ed5711f723761a38deb45e315b2c
-SHA256sum: a9d76438f929b5e86f8955865411d4d0e0ed1b0b062453e278a28c86873320b8
+MD5Sum: 629fe608d7840dae4d1a6cba7862b0d8
+SHA256sum: 7a99b1a84911bb7f5469bb90a04d8a1c8bea0bcef69d4a63e3c5255edee47b5d
 Size: 1982690
 Filename: enigma2-plugin-extensions-dreamplex_2.2.0+git1494+ba356910+ba35691994-r1_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-dreamplex.bb
@@ -9896,14 +9947,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dbg
-Version: git5038+446488d0+446488dbab-r0
+Version: git5107+c7b43650+c7b43659a5-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 2f9b8d44e3a2cabebf0927c81874e356
-SHA256sum: 068263c5e1e625b8befaeea92c3835295572df7c544f32a06bf5e25a1bb713cd
-Size: 628
-Filename: enigma2-plugin-extensions-e2iplayer-dbg_git5038+446488d0+446488dbab-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 86cf71076d9a05319aebad6566805e82
+SHA256sum: 12bea8d1361e2e7ec7029731114131fb29150a52b6126e3177484284ee809dcc
+Size: 630
+Filename: enigma2-plugin-extensions-e2iplayer-dbg_git5107+c7b43650+c7b43659a5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Debugging files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9964,15 +10015,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-dev
-Version: git5038+446488d0+446488dbab-r0
-Recommends: enigma2-plugin-extensions-e2iplayer (= git5038+446488d0+446488dbab-r0), python3-core-dev, python3-dev
+Version: git5107+c7b43650+c7b43659a5-r0
+Recommends: enigma2-plugin-extensions-e2iplayer (= git5107+c7b43650+c7b43659a5-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 36e32d78ab4f18064bcee2662f928624
-SHA256sum: 97e8795719854076d12f095f5cf74f533fe08b911a0d910b49b1c39ce3bb761d
-Size: 680
-Filename: enigma2-plugin-extensions-e2iplayer-dev_git5038+446488d0+446488dbab-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 2c4fc3e507cc61ee0d25ab2a0d2c4e8c
+SHA256sum: 2b59aa262fae7d47daf7d5cde57d364a64518b5a392f71a41645080c2d465b22
+Size: 682
+Filename: enigma2-plugin-extensions-e2iplayer-dev_git5107+c7b43650+c7b43659a5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Development files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9981,15 +10032,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer-src
-Version: git5038+446488d0+446488dbab-r0
+Version: git5107+c7b43650+c7b43659a5-r0
 Depends: enigma2-plugin-extensions-e2iplayer
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 63e838b6f27dfd3c2cbc0e2bd3a11463
-SHA256sum: f9cb28dc714bf521c6b5c5b1008758bb5f9a0250395f4adadb1dbd1810ffcb4c
-Size: 1244266
-Filename: enigma2-plugin-extensions-e2iplayer-src_git5038+446488d0+446488dbab-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: cbbb50860684b212fa4f6cd4e04bda03
+SHA256sum: 78c1b37b9389b9f1f2c5fb8bcb7b3d936b22dea8c362b11a26b335e39152c9ce
+Size: 1277950
+Filename: enigma2-plugin-extensions-e2iplayer-src_git5107+c7b43650+c7b43659a5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer - Source files
 OE: enigma2-plugin-extensions-e2iplayer
@@ -9998,16 +10049,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2iplayer
-Version: git5038+446488d0+446488dbab-r0
+Version: git5107+c7b43650+c7b43659a5-r0
 Depends: python3-core
 Recommends: enigma2-plugin-extensions-e2iplayer-deps, python3-compression, python3-core, python3-html, python3-json, python3-shell, python3-websocket-client
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 09b92d5d4b4ba8611adbb18b856b5bdc
-SHA256sum: c5e76eb64cd1176c4217fcd484351062046876f55d0713b25fd84ef2cc02f22f
-Size: 15555226
-Filename: enigma2-plugin-extensions-e2iplayer_git5038+446488d0+446488dbab-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: cb5a5647ca514c54e1602b60ac8ed5b4
+SHA256sum: 3c8b7ac058e395a857869abf5e3dd4a285df8dbd3de267157ab83e7ced647c1d
+Size: 16167122
+Filename: enigma2-plugin-extensions-e2iplayer_git5107+c7b43650+c7b43659a5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2iPlayer
 OE: enigma2-plugin-extensions-e2iplayer
@@ -10596,15 +10647,65 @@ HomePage: https://gisclub.tv
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-internetspeedtest-dbg
+Version: git40+46493890+4649389083-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: madhouse
+MD5Sum: b34ed96ef8423baf1e3fdb4a8d816579
+SHA256sum: 1943b1ab2455e6237f567e3ab89dd8a5685621430285d34eb2d6265fbd0b2b50
+Size: 616
+Filename: enigma2-plugin-extensions-internetspeedtest-dbg_git40+46493890+4649389083-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-internetspeedtest.bb
+Description: Internet speed test for enigma2 - Debugging files
+OE: enigma2-plugin-extensions-internetspeedtest
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-internetspeedtest-dev
+Version: git40+46493890+4649389083-r0
+Recommends: enigma2-plugin-extensions-internetspeedtest (= git40+46493890+4649389083-r0), python3-core-dev, python3-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: madhouse
+MD5Sum: 29b4beb8821b23777d58abe45a59f7f2
+SHA256sum: 88931e126a7d35b46351877ee6fd3d67709165a9332d80f9505efc2bb48afa36
+Size: 666
+Filename: enigma2-plugin-extensions-internetspeedtest-dev_git40+46493890+4649389083-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-internetspeedtest.bb
+Description: Internet speed test for enigma2 - Development files
+OE: enigma2-plugin-extensions-internetspeedtest
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-extensions-internetspeedtest
+Version: git40+46493890+4649389083-r0
+Depends: python3-core
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: madhouse
+MD5Sum: 78f567398a2d0563b141eab314a20c17
+SHA256sum: 41aea3884cc39ceccc4919576453cc56ef4cdd0fe93b96e1f0c9f2439503e400
+Size: 797822
+Filename: enigma2-plugin-extensions-internetspeedtest_git40+46493890+4649389083-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-internetspeedtest.bb
+Description: Internet speed test for enigma2
+OE: enigma2-plugin-extensions-internetspeedtest
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-extensions-kodi-dbg
 Version: 22-r3
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 7ef91face16984c1a103c9314cc6b6b1
-SHA256sum: 5b384de9c53969b21a3b12ff9c4e987b30e5bad749780966bbdf17bb65ab271e
-Size: 11100
+MD5Sum: 1967f2e78c788c56790148a09c627ba6
+SHA256sum: c1eb4efdc114bd92274dc3c442481015f9e944129e05c056c58178cc2cd3df69
+Size: 11096
 Filename: enigma2-plugin-extensions-kodi-dbg_22-r3_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-kodi.bb
 Description: enigma2-plugin-extensions-kodi version 22-r3 - Debugging files
@@ -10619,8 +10720,8 @@ Recommends: enigma2-plugin-extensions-kodi (= 22-r3), glibc-dev, kodi-addons-met
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: c5a42d81f73b93e71f5e8f6a82dd487b
-SHA256sum: 26ea3ae3007cfa38897c572ad24e78a3d7aa1c17318ac2aa060c7b4bb246bb99
+MD5Sum: f32d740f6719cd81283d74fb755c4169
+SHA256sum: 01e3f51433774a44bb864ae8e9e387ecc8a1585ee953526f1d23e285f3f7595e
 Size: 672
 Filename: enigma2-plugin-extensions-kodi-dev_22-r3_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-kodi.bb
@@ -10635,9 +10736,9 @@ Version: 22-r3
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: a8f4f5e93b37a46b8c9cab46a7c661da
-SHA256sum: af913bad4aafc69a00beb4a3024a9de6df42b2d97d9970727a16a8250cdb3099
-Size: 14550
+MD5Sum: 7d7cd59dbe5366687a4f6e8636c92915
+SHA256sum: 4f1beefa0782df7a3dfd1a3d5277cb7a81ecbfcee7284952e266ae7f7bc8f285
+Size: 14270
 Filename: enigma2-plugin-extensions-kodi-src_22-r3_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-kodi.bb
 Description: enigma2-plugin-extensions-kodi version 22-r3 - Source files
@@ -10652,9 +10753,9 @@ Depends: kodi-addons-meta, libc6 (>= 2.41+git0+0c76c95162), virtual-kodi
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 29163aac095d7fed0aa6ace9bf41ea0c
-SHA256sum: f3b66b753a06a77df645efb37957daf4fc22a285b5387b4684c43a98e6fb93e2
-Size: 85534
+MD5Sum: 03ebde060191b6dcb774e842bb81546f
+SHA256sum: 7f3f5ba94f7eb3bdfe8379db9bdb52127f615f7ca4864ac855a72dad9c4f5687
+Size: 85606
 Filename: enigma2-plugin-extensions-kodi_22-r3_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-kodi.bb
 Description: enigma2-plugin-extensions-kodi version 22-r3
@@ -11231,14 +11332,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather-dbg
-Version: 2.1-git143+9f2aaf70+9f2aaf7846-r0
+Version: 2.1-git145+2dd47870+2dd478790b-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: c2b7bce6b75cc448cb390fa7ccbcd464
-SHA256sum: adc58336c765cd5ea8064c626c67d4a51cc39849bc15d272bb538bf7066001a5
+MD5Sum: 147925fc9ac249d34c6d130d48860107
+SHA256sum: 7febfd0a085a4bc4c93c27966268427c671f839e3270b955500e8dac32eb7aaf
 Size: 640
-Filename: enigma2-plugin-extensions-oaweather-dbg_2.1-git143+9f2aaf70+9f2aaf7846-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-oaweather-dbg_2.1-git145+2dd47870+2dd478790b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin. - Debugging files
 OE: enigma2-plugin-extensions-oaweather
@@ -11247,15 +11348,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather-dev
-Version: 2.1-git143+9f2aaf70+9f2aaf7846-r0
-Recommends: enigma2-plugin-extensions-oaweather (= 2.1-git143+9f2aaf70+9f2aaf7846-r0), enigma2-tools-weatherinfo-dev
+Version: 2.1-git145+2dd47870+2dd478790b-r0
+Recommends: enigma2-plugin-extensions-oaweather (= 2.1-git145+2dd47870+2dd478790b-r0), enigma2-tools-weatherinfo-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: af7086f4d92cf4667ee7b4d40a2ac3c0
-SHA256sum: 7eaf14d30b75f2d5ffce130671bf1d108b69185f5847d8a07987173d50aaad91
+MD5Sum: 2a48101224d8fb53660afe7a725cd273
+SHA256sum: 0a80b9991f2fb22716d6c8a27bf19391243d0a74eafe16f1c6db95d17a88656d
 Size: 688
-Filename: enigma2-plugin-extensions-oaweather-dev_2.1-git143+9f2aaf70+9f2aaf7846-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-oaweather-dev_2.1-git145+2dd47870+2dd478790b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin. - Development files
 OE: enigma2-plugin-extensions-oaweather
@@ -11264,14 +11365,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather-src
-Version: 2.1-git143+9f2aaf70+9f2aaf7846-r0
+Version: 2.1-git145+2dd47870+2dd478790b-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: 7ccd44b6ba17cfcc488625814ba0fba4
-SHA256sum: 7e53cdef0734f3b67759542491a0db946261798700879ab8f7881bf168d28587
+MD5Sum: d8b9c832716ab733b209f9ea79bdbe9f
+SHA256sum: 42cb80a7040d587428e9ed780229db5ddcc2a08c5ecf0ad850145a0a83061514
 Size: 18302
-Filename: enigma2-plugin-extensions-oaweather-src_2.1-git143+9f2aaf70+9f2aaf7846-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-oaweather-src_2.1-git145+2dd47870+2dd478790b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin. - Source files
 OE: enigma2-plugin-extensions-oaweather
@@ -11280,15 +11381,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oaweather
-Version: 2.1-git143+9f2aaf70+9f2aaf7846-r0
+Version: 2.1-git145+2dd47870+2dd478790b-r0
 Depends: enigma2-tools-weatherinfo
 Section: extra
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
-MD5Sum: 0a654aa036c1e3c38519c1515a9a7f55
-SHA256sum: 14fd231ed0012ece0f77e1b94a2b89c0cb14c4ccb24f6610db95585539c2901c
-Size: 1309042
-Filename: enigma2-plugin-extensions-oaweather_2.1-git143+9f2aaf70+9f2aaf7846-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: dcc62f2b69a7ab535728ec6ce7d25f5b
+SHA256sum: cc740d18100594e101288023e12d92307b816ecc030a356f9313cdcdb269e78c
+Size: 1309212
+Filename: enigma2-plugin-extensions-oaweather_2.1-git145+2dd47870+2dd478790b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin.
 OE: enigma2-plugin-extensions-oaweather
@@ -11344,6 +11445,110 @@ Description: enigma2-plugin-extensions-oggisport version 1.0+git-r1
 OE: enigma2-plugin-extensions-oggisport
 HomePage: https://gisclub.tv
 License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dbg
+Version: 2.2.2-git252+38989300+38989306bb-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 05005ea77f052aff6ef3ffb2284162fb
+SHA256sum: e78ba07dcc0abcda82bcb4270bf507f5553dd6f265761dcd0ae1af1d956f0a0f
+Size: 634
+Filename: enigma2-plugin-extensions-openwebif-dbg_2.2.2-git252+38989300+38989306bb-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version git-r0 - Debugging files
+OE: enigma2-plugin-extensions-openwebif
+HomePage: https://gisclub.tv
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-dev
+Version: 2.2.2-git252+38989300+38989306bb-r0
+Recommends: aio-grab-dev, enigma2-dev, enigma2-plugin-extensions-openwebif (= 2.2.2-git252+38989300+38989306bb-r0), python3-cheetah-dev, python3-compression-dev, python3-core-dev, python3-dev, python3-ipaddress-dev, python3-json-dev, python3-misc-dev, python3-numbers-dev, python3-pprint-dev, python3-pyopenssl-dev, python3-shell-dev, python3-twisted-web-dev, python3-unixadmin-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 1fee6781bb9b4b010c2a287fdece736c
+SHA256sum: 1c15801ee7a0b5da30a2ca8d0eab257b670d00b04ed2b3e45e132cbc21b78232
+Size: 774
+Filename: enigma2-plugin-extensions-openwebif-dev_2.2.2-git252+38989300+38989306bb-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version git-r0 - Development files
+OE: enigma2-plugin-extensions-openwebif
+HomePage: https://gisclub.tv
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-src
+Version: 2.2.2-git252+38989300+38989306bb-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 17235c222d8ac08a41c1c34bdf7e36bc
+SHA256sum: 99663ce78178d3a8a0ff6492a9013fa9d0563c9230ec0114525182de514ed32e
+Size: 330070
+Filename: enigma2-plugin-extensions-openwebif-src_2.2.2-git252+38989300+38989306bb-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: enigma2-plugin-extensions-openwebif version git-r0 - Source files
+OE: enigma2-plugin-extensions-openwebif
+HomePage: https://gisclub.tv
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-themes
+Version: 2.2.2-git252+38989300+38989306bb-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 551bb719ff31b820d23974ffa739818b
+SHA256sum: ee78e3fb1384a76ae738bf732b406f1ebec27338f4a3c69c708ee68d91bed18f
+Size: 791848
+Filename: enigma2-plugin-extensions-openwebif-themes_2.2.2-git252+38989300+38989306bb-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: extensions-openwebif (Additional themes for OpenWebif)
+OE: enigma2-plugin-extensions-openwebif
+HomePage: https://gisclub.tv
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif-vxg
+Version: 2.2.2-git252+38989300+38989306bb-r0
+Depends: enigma2-plugin-extensions-openwebif
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 725bbc852549c9e861791cb0c200a436
+SHA256sum: d22190b8a820967139df4c9852c39e043f1da353e42d287b4654a650ee0e4288
+Size: 1456872
+Filename: enigma2-plugin-extensions-openwebif-vxg_2.2.2-git252+38989300+38989306bb-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: extensions-openwebif (WebTV for Google Chrome)
+OE: enigma2-plugin-extensions-openwebif
+HomePage: https://gisclub.tv
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-openwebif
+Version: 2.2.2-git252+38989300+38989306bb-r0
+Depends: aio-grab, enigma2, python3-cheetah, python3-compression, python3-core, python3-ipaddress, python3-json, python3-misc, python3-numbers, python3-pprint, python3-pyopenssl, python3-shell, python3-twisted-web, python3-unixadmin
+Provides: enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-webtv
+Replaces: enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-webtv
+Conflicts: enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-webtv
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 768d51f7738e3bd933e48eebaca2ae79
+SHA256sum: 42ed77346ec612bd2304b58520bbfe2ece1de3ac903a145bd684acf465129641
+Size: 1146306
+Filename: enigma2-plugin-extensions-openwebif_2.2.2-git252+38989300+38989306bb-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-plugin-extensions-openwebif.bb
+Description: extensions-openwebif
+OE: enigma2-plugin-extensions-openwebif
+HomePage: https://gisclub.tv
+License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-oroscopoitalia-dbg
@@ -12792,14 +12997,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-kiddac-1080-onyx-dbg
-Version: 2.49_20250928-git23+c509db90+c509db968b-r0
+Version: 2.50_20250929-git24+66aa0a60+66aa0a608d-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Kiddac
-MD5Sum: 7157257d643d5dcff9536ca5604d7bbf
-SHA256sum: f20761bccd08812c7a7a6ff65d559688498ea251c7d68d5c27b2e78ac82f89f6
+MD5Sum: 5b4c488a6146575febc7ddb1ad76caf7
+SHA256sum: 2fb701c07715dffe8cebbaea0d85b2d8c6e2aa61fa7ca149eb07e6287a306cab
 Size: 632
-Filename: enigma2-plugin-skins-kiddac-1080-onyx-dbg_2.49_20250928-git23+c509db90+c509db968b-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-skins-kiddac-1080-onyx-dbg_2.50_20250929-git24+66aa0a60+66aa0a608d-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-skins-kiddac-1080-onyx.bb
 Description: enigma2-plugin-skins-kiddac-1080-onyx version git-r0 - Debugging files
 OE: enigma2-plugin-skins-kiddac-1080-onyx
@@ -12808,15 +13013,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-kiddac-1080-onyx-dev
-Version: 2.49_20250928-git23+c509db90+c509db968b-r0
-Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-kiddac-1080-onyx (= 2.49_20250928-git23+c509db90+c509db968b-r0)
+Version: 2.50_20250929-git24+66aa0a60+66aa0a608d-r0
+Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-kiddac-1080-onyx (= 2.50_20250929-git24+66aa0a60+66aa0a608d-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Kiddac
-MD5Sum: f67a577624b0f9d611cf8fc5d8616e25
-SHA256sum: e3a2fdcaab995be05a986c800439c9a6faef53d1edd399df19cf62ba3e047ce5
+MD5Sum: 95947bff79a5660f2d572bf7342d6138
+SHA256sum: 0d2fcc210fb9fa13d721ac14f5d50756b4fa9bf160aa9bb59f960f9b5eb24fcb
 Size: 688
-Filename: enigma2-plugin-skins-kiddac-1080-onyx-dev_2.49_20250928-git23+c509db90+c509db968b-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-skins-kiddac-1080-onyx-dev_2.50_20250929-git24+66aa0a60+66aa0a608d-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-skins-kiddac-1080-onyx.bb
 Description: enigma2-plugin-skins-kiddac-1080-onyx version git-r0 - Development files
 OE: enigma2-plugin-skins-kiddac-1080-onyx
@@ -12825,15 +13030,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-kiddac-1080-onyx
-Version: 2.49_20250928-git23+c509db90+c509db968b-r0
+Version: 2.50_20250929-git24+66aa0a60+66aa0a608d-r0
 Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Kiddac
-MD5Sum: 432a8d6104e263492df4752b0236f8d6
-SHA256sum: cc1cfde678525cef17e9b52827a6d093e871ae40fd42b72276b27973ebe1021c
-Size: 3223434
-Filename: enigma2-plugin-skins-kiddac-1080-onyx_2.49_20250928-git23+c509db90+c509db968b-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 2082832ba318444e4b3dc8d51bf23178
+SHA256sum: 792be04884e03fef496308432455917c0c13d1035fd0730df55578e90300f2be
+Size: 3222918
+Filename: enigma2-plugin-skins-kiddac-1080-onyx_2.50_20250929-git24+66aa0a60+66aa0a608d-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-skins-kiddac-1080-onyx.bb
 Description: enigma2-plugin-skins-kiddac-1080-onyx version git-r0
 OE: enigma2-plugin-skins-kiddac-1080-onyx
@@ -12892,14 +13097,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-kiddac-1080-slyk-r19-dbg
-Version: 2.33_20250828-git20+84fe2d80+84fe2d8a50-r0
+Version: 2.33_20250928-git21+3f040df0+3f040dff42-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Kiddac
-MD5Sum: b00f0fd9beafd50f770a3378220df578
-SHA256sum: 61b8ed60ce8c7167716f9f26c61db43829e11a949a0c963802d05a101be6789f
-Size: 634
-Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19-dbg_2.33_20250828-git20+84fe2d80+84fe2d8a50-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 87b9019a7240634691f7cda51876ac0b
+SHA256sum: 18c9251f8d5aef47be9faffa8c09c20387ea1580b08abf6ed864ecb198a8ba1f
+Size: 636
+Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19-dbg_2.33_20250928-git21+3f040df0+3f040dff42-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-skins-kiddac-1080-slyk-r19.bb
 Description: enigma2-plugin-skins-kiddac-1080-slyk-r19 version git-r0 - Debugging files
 OE: enigma2-plugin-skins-kiddac-1080-slyk-r19
@@ -12908,15 +13113,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-kiddac-1080-slyk-r19-dev
-Version: 2.33_20250828-git20+84fe2d80+84fe2d8a50-r0
-Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19 (= 2.33_20250828-git20+84fe2d80+84fe2d8a50-r0)
+Version: 2.33_20250928-git21+3f040df0+3f040dff42-r0
+Recommends: enigma2-plugin-skincomponents-kiddac-shared-skin-dev, enigma2-plugin-skins-kiddac-1080-slyk-r19 (= 2.33_20250928-git21+3f040df0+3f040dff42-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Kiddac
-MD5Sum: 8e888375afd1aaf6eb662a1b206d7f31
-SHA256sum: c14ee3338c598271066cc3fae6f84aa6107115392fa474c99663da059578033d
-Size: 690
-Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19-dev_2.33_20250828-git20+84fe2d80+84fe2d8a50-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 7d70096f7074ca6d6d67c2f88ec03480
+SHA256sum: e5350b5d0ec5855d48e4198af4dbd6018846c09e3260e8e11cce39b5215b4a63
+Size: 692
+Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19-dev_2.33_20250928-git21+3f040df0+3f040dff42-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-skins-kiddac-1080-slyk-r19.bb
 Description: enigma2-plugin-skins-kiddac-1080-slyk-r19 version git-r0 - Development files
 OE: enigma2-plugin-skins-kiddac-1080-slyk-r19
@@ -12925,15 +13130,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-kiddac-1080-slyk-r19
-Version: 2.33_20250828-git20+84fe2d80+84fe2d8a50-r0
+Version: 2.33_20250928-git21+3f040df0+3f040dff42-r0
 Depends: enigma2-plugin-skincomponents-kiddac-shared-skin
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Kiddac
-MD5Sum: a6c532c6bcea7e4b77410f77025f0546
-SHA256sum: 7b41850d8e7bb580f414c012a6ecc14544da866c9aab99356bff2441ad68bdca
-Size: 2557292
-Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19_2.33_20250828-git20+84fe2d80+84fe2d8a50-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 4eee0bb5ee2aad5dd1fc53f76ffa56e0
+SHA256sum: 0a5357260137c2b91d4377cb072928769c92cc0bcfc5ada1608d27876ab72c78
+Size: 2558174
+Filename: enigma2-plugin-skins-kiddac-1080-slyk-r19_2.33_20250928-git21+3f040df0+3f040dff42-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-skins-kiddac-1080-slyk-r19.bb
 Description: enigma2-plugin-skins-kiddac-1080-slyk-r19 version git-r0
 OE: enigma2-plugin-skins-kiddac-1080-slyk-r19
@@ -13387,27 +13592,27 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-softcams-ncam
-Version: 1.30+git0+0-r2
-Depends: libc6 (>= 2.41+git0+0c76c95162), libcrypto3 (>= 3.5.0), libdvbcsa1 (>= 1.1.0+git60+f25351d0+f25351d705), libssl3 (>= 3.5.0), libusb1, softcam-support
+Version: Unofficial-801-r3
+Depends: libdvbcsa, libusb1, softcam-support
 Provides: enigma2-plugin-softcams-ncam-openfix-emu, ncam
 Replaces: enigma2-plugin-softcams-ncam-openfix-emu, ncam-ipv4
 Conflicts: enigma2-plugin-softcams-ncam-openfix-emu, ncam-ipv4
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Raed - fairbird
-MD5Sum: 0ef55c088631e9512fc809a64654632e
-SHA256sum: ec6112e74781a7899c560b724838f26e233c91e30a392f9c4c8475fd77389c8d
-Size: 869392
-Filename: enigma2-plugin-softcams-ncam_1.30+git0+0-r2_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 9b560b42558524399ad1a34ff0d66e2d
+SHA256sum: 8ccd052e783596e2b94791660644d53493b901dbd624475a81bc79c8848e6b60
+Size: 862954
+Filename: enigma2-plugin-softcams-ncam_Unofficial-801-r3_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-ncam.bb
-Description: NCam 1.30+git0+0 (IPv6/IPv4 Dual-Stack support)
+Description: NCam Unofficial-801 (IPv6/IPv4 Dual-Stack support)
 OE: enigma2-plugin-softcams-ncam
 HomePage: https://gisclub.tv
 License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-emu
-Version: 2.25.09-11887-802-r3
+Version: 2.25.10-11902-802-r4
 Depends: libdvbcsa, libusb1, softcam-support
 Provides: enigma2-plugin-softcams-oscam-openfix-emu, oscam-emu
 Replaces: enigma2-plugin-softcams-oscam-openfix-emu, oscam-emu-ipv4
@@ -13415,19 +13620,19 @@ Conflicts: enigma2-plugin-softcams-oscam-openfix-emu, oscam-emu-ipv4
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: oscam-emu
-MD5Sum: a5836d0082ea220d315046c11b0d070c
-SHA256sum: 96201336b9cc072b76612833ed9d3e00241b51ef27d403c115f6e262d83db825
-Size: 849964
-Filename: enigma2-plugin-softcams-oscam-emu_2.25.09-11887-802-r3_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f485cbf9c001749d254802099f94018c
+SHA256sum: 795b6b359da6d745a31d86001012b41172e2238d31c27ec5c9370f4803173dec
+Size: 853844
+Filename: enigma2-plugin-softcams-oscam-emu_2.25.10-11902-802-r4_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam-emu.bb
-Description: OSCam-emu 2.25.09-11887-802 (IPv6/IPv4 Dual-Stack support)
+Description: OSCam-emu 2.25.10-11902-802 (IPv6/IPv4 Dual-Stack support)
 OE: enigma2-plugin-softcams-oscam-emu
 HomePage: https://gisclub.tv
 License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-latest
-Version: 1.30+git0+550b1299d2-r3
+Version: 1.30+git0+dd61eeee24-r3
 Depends: libdvbcsa, libusb1, softcam-support
 Provides: enigma2-plugin-softcams-oscam-openfix, oscam-latest
 Replaces: enigma2-plugin-softcams-oscam-openfix, oscam-latest-ipv4
@@ -13435,19 +13640,19 @@ Conflicts: enigma2-plugin-softcams-oscam-openfix, oscam-latest-ipv4
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 5b83356b31938e8e6cff90f418977b56
-SHA256sum: 304b922a83392f94f3476dda0c723d854d91be0e0e0ace2a8392ba9ad611958f
-Size: 712220
-Filename: enigma2-plugin-softcams-oscam-latest_1.30+git0+550b1299d2-r3_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: a0f609e7f593dfb6dbfee262126c5b29
+SHA256sum: 278ff8471557e886c67f65d1829f29a50c03b181b35ac94845dcea7923cbea9b
+Size: 711390
+Filename: enigma2-plugin-softcams-oscam-latest_1.30+git0+dd61eeee24-r3_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam-latest.bb
-Description: OSCam-latest 1.30+git0+550b1299d2 (IPv6/IPv4 Dual-Stack support)
+Description: OSCam-latest 1.30+git0+dd61eeee24 (IPv6/IPv4 Dual-Stack support)
 OE: enigma2-plugin-softcams-oscam-latest
 HomePage: https://gisclub.tv
 License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-pcscd-latest
-Version: 1.30+git0+550b1299d2-r1
+Version: 1.30+git0+dd61eeee24-r1
 Depends: libc6 (>= 2.41+git0+0c76c95162), libcrypto3 (>= 3.5.0), libpcsclite1 (>= 2.0.3), libssl3 (>= 3.5.0), softcam-support
 Provides: enigma2-plugin-softcams-oscam-pcscd-latest
 Replaces: enigma2-plugin-softcams-oscam-pcscd-latest
@@ -13455,12 +13660,12 @@ Conflicts: enigma2-plugin-softcams-oscam-pcscd-latest
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 8b47ecb05f2b0f95d6322ca96c3b3ac7
-SHA256sum: aa86f22c8c361768a13101ff73278d43c26d92ffeabd53c776902f9860125ffa
-Size: 755160
-Filename: enigma2-plugin-softcams-oscam-pcscd-latest_1.30+git0+550b1299d2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 51ada48ea8536e048d3103fb62749d98
+SHA256sum: 16874f215347eadd30c0394572abd3d72636e6992a4430b6045a355057d4a291
+Size: 754780
+Filename: enigma2-plugin-softcams-oscam-pcscd-latest_1.30+git0+dd61eeee24-r1_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-oscam-pcscd-latest.bb
-Description: OSCam-pscd 1.30+git0+550b1299d2
+Description: OSCam-pscd 1.30+git0+dd61eeee24
 OE: enigma2-plugin-softcams-oscam-pcscd-latest
 HomePage: https://gisclub.tv
 License: GPL-3.0-only
@@ -14607,15 +14812,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3-dbg
-Version: 179+git141+ac5140d0+ac5140db67-r0
+Version: 179+git142+250c7710+250c771b4c-r0
 Recommends: glibc-dbg, libavcodec-dbg, libavformat-dbg, libavutil-dbg, libswresample-dbg, libswscale-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 6251949e5abd5534da3284f2ac79b751
-SHA256sum: aac53be4ab90540371210a4f66fa13d5c2f2ea7673ee3295cbbeb690d8bd0fc0
-Size: 22372
-Filename: exteplayer3-dbg_179+git141+ac5140d0+ac5140db67-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 365bb71c5c9765b46622668b070f0848
+SHA256sum: 7ca4bf8dfb0dbf9d0bc50e26685f9893b068b71b9c2c1e8883a461c6e2d83c94
+Size: 22374
+Filename: exteplayer3-dbg_179+git142+250c7710+250c771b4c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3.bb
 Description: exteplayer3 - media player for E2 - Debugging files
 OE: exteplayer3
@@ -14624,15 +14829,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3-dev
-Version: 179+git141+ac5140d0+ac5140db67-r0
-Recommends: exteplayer3 (= 179+git141+ac5140d0+ac5140db67-r0), ffmpeg-dev, glibc-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libbluray-dev, libswresample-dev, libswscale-dev
+Version: 179+git142+250c7710+250c771b4c-r0
+Recommends: exteplayer3 (= 179+git142+250c7710+250c771b4c-r0), ffmpeg-dev, glibc-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libbluray-dev, libswresample-dev, libswscale-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 290db5d8a66c5bd0dd59b3d551449402
-SHA256sum: b251da9a7db31ed48cc783525c5628d6cb54bb42c03d5ec9db2bfb9b138fe606
-Size: 724
-Filename: exteplayer3-dev_179+git141+ac5140d0+ac5140db67-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ede2edab03fe1bcd6101042a926db064
+SHA256sum: e8c60c6d4cc339c76f1b0007afd940e026836fa76d8a520c97199aeed8a1672c
+Size: 722
+Filename: exteplayer3-dev_179+git142+250c7710+250c771b4c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3.bb
 Description: exteplayer3 - media player for E2 - Development files
 OE: exteplayer3
@@ -14641,15 +14846,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: exteplayer3
-Version: 179+git141+ac5140d0+ac5140db67-r0
+Version: 179+git142+250c7710+250c771b4c-r0
 Depends: ffmpeg, libavcodec61 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray, libc6 (>= 2.41+git0+0c76c95162), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1)
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: d2e3dc4d7782bc4aa2495389a8e4b9ff
-SHA256sum: 6a4f541f5575e76123bad62b93bf2f69c60d9478ae1fdcf7a5d7a15097a19eba
+MD5Sum: 47aba59808d419bb1dbeb1c84a785855
+SHA256sum: 06b628cf5f705a6d55c6ebfd9beb5ac2e0bd54be7fd03ef6c2666e33ccbae667
 Size: 86872
-Filename: exteplayer3_179+git141+ac5140d0+ac5140db67-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: exteplayer3_179+git142+250c7710+250c771b4c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: exteplayer3.bb
 Description: exteplayer3 - media player for E2
 OE: exteplayer3
@@ -50171,13 +50376,64 @@ Recommends: kernel-module-ext2
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 3e870a30acb717161233d6d5b2c47b5d
-SHA256sum: 1c9540d94eace4b2bba6e54d570b524167b449e839b9bd946bb4739c1a5c9edf
-Size: 37443262
+MD5Sum: 5619ea25932303221b67709fe5b476d7
+SHA256sum: b3a912b74eda64e2b9e2fce290863adb62c98d39c8adcff17e9362612e5f6071
+Size: 37443388
 Filename: kodi-addon-inputstream-adaptive-piers_22.1.12+gitr0+d8e2a9bed7-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-inputstream-adaptive-piers_git.bb
 Description: kodi inputstream addon for several manifest types
 OE: kodi-addon-inputstream-adaptive-piers
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-inputstream-ffmpegdirect-piers-dbg
+Version: 22.0.0+gitr0+29a54f8281-r0
+Recommends: glibc-dbg, libavcodec-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libbz2-dbg, libgcc-dbg, libpostproc-dbg, libstdc++-dbg, libswresample-dbg, libswscale-dbg, zlib-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 5cd11d1a95bac8cf0ddd58ffb94852fe
+SHA256sum: c59a44e9e7f7f8707d0da5aa4dcf3ca1ef9e833d18c09f40ace3dfc8dc5d2017
+Size: 2275010
+Filename: kodi-addon-inputstream-ffmpegdirect-piers-dbg_22.0.0+gitr0+29a54f8281-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-ffmpegdirect-piers_git.bb
+Description: kodi inputstream addon for ffmpegdirect - Debugging files
+OE: kodi-addon-inputstream-ffmpegdirect-piers
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-inputstream-ffmpegdirect-piers-dev
+Version: 22.0.0+gitr0+29a54f8281-r0
+Recommends: expat-dev, glibc-dev, kodi-addon-inputstream-ffmpegdirect-piers (= 22.0.0+gitr0+29a54f8281-r0), kodi-platform-dev, libavcodec-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbz2-dev, libgcc-dev, libkodiplatform-dev, libpostproc-dev, libstdc++-dev, libswresample-dev, libswscale-dev, p8platform-dev, zlib-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 53689a0e81e5c0ec5dc213a162bb510f
+SHA256sum: 29bc5cc4b9dfdf3778ab3c28f9fc37c18b4c5bca8c650f466c97135128b25f76
+Size: 760
+Filename: kodi-addon-inputstream-ffmpegdirect-piers-dev_22.0.0+gitr0+29a54f8281-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-ffmpegdirect-piers_git.bb
+Description: kodi inputstream addon for ffmpegdirect - Development files
+OE: kodi-addon-inputstream-ffmpegdirect-piers
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: kodi-addon-inputstream-ffmpegdirect-piers
+Version: 22.0.0+gitr0+29a54f8281-r0
+Depends: libavcodec61 (>= 7.1.1), libavfilter10 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbz2-1 (>= 1.0.8), libc6 (>= 2.41+git0+0c76c95162), libgcc1 (>= 15.1.0), libkodiplatform, libpostproc58 (>= 7.1.1), libstdc++6 (>= 15.1.0), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1), libz1 (>= 1.3.1)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 332a39fdbc3dc759a701287d57ce42be
+SHA256sum: 4bc7bd154298b7d9bf79ff5993b149c2ef7811e22925f59d2ab05ca79225cd89
+Size: 8188692
+Filename: kodi-addon-inputstream-ffmpegdirect-piers_22.0.0+gitr0+29a54f8281-r0_cortexa15hf-neon-vfpv4.ipk
+Source: kodi-addon-inputstream-ffmpegdirect-piers_git.bb
+Description: kodi inputstream addon for ffmpegdirect
+OE: kodi-addon-inputstream-ffmpegdirect-piers
 HomePage: https://gisclub.tv
 License: GPL-2.0-or-later
 Priority: optional
@@ -50222,9 +50478,9 @@ Depends: libc6 (>= 2.41+git0+0c76c95162), libcrypto3 (>= 3.5.0), libgcc1 (>= 15.
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: ed9455b9f81c8e31552ca478e8893dce
-SHA256sum: 1952f5b379f81cc305cff5b75b1439714560a432386d35c5066c13f527e6af5c
-Size: 451866
+MD5Sum: 07ffa3955963422e76d031a913aa4899
+SHA256sum: 7764d1eeb411228a8cd5f50ad9a250d3f9e46d1af5a248b0a686dad195f18163
+Size: 451768
 Filename: kodi-addon-inputstream-rtmp-piers_22.0.0+gitr0+4cf0d41bf2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: kodi-addon-inputstream-rtmp-piers_git.bb
 Description: kodi inputstream addon for rtmp
@@ -53596,14 +53852,14 @@ Priority: optional
 
 Package: libavformat61
 Version: 7.1.1-r1
-Depends: libavcodec61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray (>= v1.4.0+git3074+d41111c0+d41111c1eb), libbz2-1 (>= 1.0.8), libc6 (>= 2.41+git0+0c76c95162), libcrypto3 (>= 3.5.0), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.5.0), libxml2 (>= 2.14.3), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git0+6f6bb1353f)
+Depends: libavcodec61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray (>= v1.4.0+git3075+48d76410+48d7641445), libbz2-1 (>= 1.0.8), libc6 (>= 2.41+git0+0c76c95162), libcrypto3 (>= 3.5.0), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.5.0), libxml2 (>= 2.14.3), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git0+6f6bb1353f)
 Provides: libavformat
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: c6871cd0e7e7e40d9e2335df5e075d66
-SHA256sum: c721d3e116d4078caafbdfd7e90150f97eb42cb54902db81b4677379c3d5e4e7
-Size: 1108818
+MD5Sum: cc91fe7d770cc99eab5029f679e1e0f5
+SHA256sum: 0c5866f3600e67ab27e889adfcde44aa4a74ec13da1921fb5d1c0f4fac30d7da
+Size: 1108824
 Filename: libavformat61_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
 Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
@@ -53666,15 +53922,15 @@ License: LGPL-2.1-or-later & BSD-2-Clause & BSD-3-Clause & MIT
 Priority: optional
 
 Package: libbluray-dbg
-Version: v1.4.0+git3074+d41111c0+d41111c1eb-r0
+Version: v1.4.0+git3075+48d76410+48d7641445-r0
 Recommends: freetype-dbg, glibc-dbg, libxml2-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 2fc5869624ff66d86a1089176dc98ca3
-SHA256sum: 4d4b075cacd3b6a4c1fe0dccb50f819b7e353a688b68bb949bcb194d33f43a3e
-Size: 392852
-Filename: libbluray-dbg_v1.4.0+git3074+d41111c0+d41111c1eb-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 42b57a7fafb14ab85d61c5b555d5e4e7
+SHA256sum: a5819c1235bb3e7404934cb2e8b7a41bd20ef033201d4d5166cfa01bde46dfc7
+Size: 392854
+Filename: libbluray-dbg_v1.4.0+git3075+48d76410+48d7641445-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libbluray_git.bb
 Description: libbluray version v1.4.0+git-r0 - Debugging files
 OE: libbluray
@@ -53683,16 +53939,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: libbluray-dev
-Version: v1.4.0+git3074+d41111c0+d41111c1eb-r0
+Version: v1.4.0+git3075+48d76410+48d7641445-r0
 Depends: freetype-dev, libbluray, libxml2-dev
-Recommends: freetype-dev, glibc-dev, libaacs-dev, libbluray (= v1.4.0+git3074+d41111c0+d41111c1eb-r0), libdca-dev, libdvdcss-dev, libxml2-dev
+Recommends: freetype-dev, glibc-dev, libaacs-dev, libbluray (= v1.4.0+git3075+48d76410+48d7641445-r0), libdca-dev, libdvdcss-dev, libxml2-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: bb98b2b78bd6ab3d2e229af06e194ee7
-SHA256sum: 02d800280ed604906f7b3c8c6cdc19482ed93eb02c6af963417fa661f0a41250
-Size: 20664
-Filename: libbluray-dev_v1.4.0+git3074+d41111c0+d41111c1eb-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 074ed9456ff9aea8f8ac2df36cd3f10b
+SHA256sum: 979294d4287abee584f6210be53149d5eed780790ac8b3e36db18a3df11c5a19
+Size: 20668
+Filename: libbluray-dev_v1.4.0+git3075+48d76410+48d7641445-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libbluray_git.bb
 Description: libbluray version v1.4.0+git-r0 - Development files
 OE: libbluray
@@ -53701,15 +53957,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: libbluray-staticdev
-Version: v1.4.0+git3074+d41111c0+d41111c1eb-r0
-Depends: libbluray-dev (= v1.4.0+git3074+d41111c0+d41111c1eb-r0)
+Version: v1.4.0+git3075+48d76410+48d7641445-r0
+Depends: libbluray-dev (= v1.4.0+git3075+48d76410+48d7641445-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 4193090eb0f1f7202f9411dfd673ccc8
-SHA256sum: 73375675e34eeeefdfd5d60e12440e8ae9804ee75fd16ba4c64cb4a2b4d59d5c
-Size: 659902
-Filename: libbluray-staticdev_v1.4.0+git3074+d41111c0+d41111c1eb-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ab2420839d676e8828fc519640e5049b
+SHA256sum: e34f7314fd5e2457a90561a6a63d59ee780bb4d80a5b7971a222a0814464fa0d
+Size: 659904
+Filename: libbluray-staticdev_v1.4.0+git3075+48d76410+48d7641445-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libbluray_git.bb
 Description: libbluray version v1.4.0+git-r0 - Development files (Static Libraries)
 OE: libbluray
@@ -53718,15 +53974,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: libbluray
-Version: v1.4.0+git3074+d41111c0+d41111c1eb-r0
+Version: v1.4.0+git3075+48d76410+48d7641445-r0
 Depends: libaacs, libc6 (>= 2.41+git0+0c76c95162), libdca, libdvdcss, libfreetype6 (>= 2.13.3), libxml2 (>= 2.14.3)
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 43da382212e63596a5f7bf3f3b675564
-SHA256sum: c89f6c6b48d845404734ce661ee151a198b80aa5059b706b11ef03b3b9b2dc3a
-Size: 129060
-Filename: libbluray_v1.4.0+git3074+d41111c0+d41111c1eb-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: e7244815e95e2f59c1e3046557f25c18
+SHA256sum: 1866fe128d07ab2c4bdcabba7774d85a554de6b0cc47308752f3642d6a3ec7c9
+Size: 129066
+Filename: libbluray_v1.4.0+git3075+48d76410+48d7641445-r0_cortexa15hf-neon-vfpv4.ipk
 Source: libbluray_git.bb
 Description: libbluray version v1.4.0+git-r0
 OE: libbluray
@@ -67991,6 +68247,223 @@ Description: The Python Programming Language
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
+Priority: optional
+
+Package: libqt5svg-dbg
+Version: 5.15.16+git0+ba3671e467-r0
+Provides: qtsvg-dbg
+Recommends: glibc-dbg, libstdc++-dbg, qtbase-dbg, zlib-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 3c441d617f5b66b418189fc0aa629525
+SHA256sum: 15466c0b11aa87c6cbe52426d68fa60ce8ebc08f193354de9bf95de2253dce02
+Size: 3158586
+Filename: libqt5svg-dbg_5.15.16+git0+ba3671e467-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtsvg_git.bb
+Description: qtsvg version 5.15.16+git-r0 - Debugging files
+OE: qtsvg
+HomePage: http://www.qt.io
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Priority: optional
+
+Package: libqt5svg-dev
+Version: 5.15.16+git0+ba3671e467-r0
+Depends: qtbase-dev, qtsvg
+Provides: qtsvg-dev
+Recommends: glibc-dev, libstdc++-dev, qtbase-dev, qtsvg, qtsvg-mkspecs, qtsvg-qmldesigner, zlib-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 5ba3db654921e1dbf5ea469251e40d65
+SHA256sum: 7a2a7798d8f7fbc3716260ffa821397080bf2adad52b35ebc927fab2ff6d29b5
+Size: 17300
+Filename: libqt5svg-dev_5.15.16+git0+ba3671e467-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtsvg_git.bb
+Description: qtsvg version 5.15.16+git-r0 - Development files
+OE: qtsvg
+HomePage: http://www.qt.io
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Priority: optional
+
+Package: libqt5svg-mkspecs
+Version: 5.15.16+git0+ba3671e467-r0
+Provides: qtsvg-mkspecs
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 0a4e4911f9c58dc36e05b55e4bc51ef6
+SHA256sum: ec3f7f817d97d70a6a3f182b0fa162308b26f06bbaf8da999e20791c9f38e9b7
+Size: 1134
+Filename: libqt5svg-mkspecs_5.15.16+git0+ba3671e467-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtsvg_git.bb
+Description: qtsvg version 5.15.16+git-r0
+OE: qtsvg
+HomePage: http://www.qt.io
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Priority: optional
+
+Package: libqt5svg-plugins
+Version: 5.15.16+git0+ba3671e467-r0
+Depends: libc6 (>= 2.41+git0+0c76c95162), libqt5svg5 (>= 5.15.16+git0+ba3671e467), libstdc++6 (>= 15.1.0), qtbase (>= 5.15.16+git0+8ad94db938)
+Provides: qtsvg-plugins
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: a73a5eaa939e114839ecfdd487de0ac5
+SHA256sum: 7ac7df7b2e600487bbf20846d29c2eae30021e9d044f572b79eed6e3b2a15ae7
+Size: 16226
+Filename: libqt5svg-plugins_5.15.16+git0+ba3671e467-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtsvg_git.bb
+Description: qtsvg version 5.15.16+git-r0
+OE: qtsvg
+HomePage: http://www.qt.io
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Priority: optional
+
+Package: libqt5svg-qmlplugins
+Version: 5.15.16+git0+ba3671e467-r0
+Provides: qtsvg-qmlplugins
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 73ba225a89189a2ff09a3c8049fc77f6
+SHA256sum: ad030cace0d30496d20c3fefcbbb41f87dc92351cf6ac05a5fe6be93ee2a1507
+Size: 630
+Filename: libqt5svg-qmlplugins_5.15.16+git0+ba3671e467-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtsvg_git.bb
+Description: qtsvg version 5.15.16+git-r0
+OE: qtsvg
+HomePage: http://www.qt.io
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Priority: optional
+
+Package: libqt5svg5
+Version: 5.15.16+git0+ba3671e467-r0
+Depends: libc6 (>= 2.41+git0+0c76c95162), libstdc++6 (>= 15.1.0), libz1 (>= 1.3.1), qtbase (>= 5.15.16+git0+8ad94db938)
+Provides: qtsvg
+Recommends: qtsvg-plugins, qtsvg-qmlplugins
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: fb232b2b3d20ef8f83bc8da538266c05
+SHA256sum: f452e826568f15e016f0c51dd2c894e22d5bc9c3204cef94080cae4fff12d43d
+Size: 101800
+Filename: libqt5svg5_5.15.16+git0+ba3671e467-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtsvg_git.bb
+Description: qtsvg version 5.15.16+git-r0
+OE: qtsvg
+HomePage: http://www.qt.io
+License: GFDL-1.3 & BSD-3-Clause & ( GPL-3.0-only & The-Qt-Company-GPL-Exception-1.0 | The-Qt-Company-Commercial ) & ( GPL-2.0-or-later | LGPL-3.0-only | The-Qt-Company-Commercial )
+Priority: optional
+
+Package: libqt5virtualkeyboard-dbg
+Version: 5.15.16+git0+365f79ee89-r0
+Provides: qtvirtualkeyboard-dbg
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, qtbase-dbg, qtdeclarative-dbg, qtsvg-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 5a3b8125de22a87d0f281a1c8e24e1d0
+SHA256sum: 6a5f7eff531ab3572c0f2b47b3e5c967c81b44042a216601abe20e463dc003d9
+Size: 18454600
+Filename: libqt5virtualkeyboard-dbg_5.15.16+git0+365f79ee89-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtvirtualkeyboard_git.bb
+Description: qtvirtualkeyboard version 5.15.16+git-r0 - Debugging files
+OE: qtvirtualkeyboard
+HomePage: https://gisclub.tv
+License: GPL-3.0-only | The-Qt-Company-Commercial
+Priority: optional
+
+Package: libqt5virtualkeyboard-dev
+Version: 5.15.16+git0+365f79ee89-r0
+Depends: qtbase-dev, qtdeclarative-dev, qtvirtualkeyboard
+Provides: qtvirtualkeyboard-dev
+Recommends: glibc-dev, libgcc-dev, libstdc++-dev, qtbase-dev, qtdeclarative-dev, qtmultimedia-dev, qtquickcontrols-dev, qtsvg-dev, qtvirtualkeyboard, qtvirtualkeyboard-mkspecs, qtvirtualkeyboard-qmldesigner, qtxmlpatterns-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 35ccacd476cd2d1456d0298f4d8b9607
+SHA256sum: 4cfdb06e6467fd0f21edd69a01c2ae73086e7ff930d91bbaebecdc934e38ae41
+Size: 18250
+Filename: libqt5virtualkeyboard-dev_5.15.16+git0+365f79ee89-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtvirtualkeyboard_git.bb
+Description: qtvirtualkeyboard version 5.15.16+git-r0 - Development files
+OE: qtvirtualkeyboard
+HomePage: https://gisclub.tv
+License: GPL-3.0-only | The-Qt-Company-Commercial
+Priority: optional
+
+Package: libqt5virtualkeyboard-mkspecs
+Version: 5.15.16+git0+365f79ee89-r0
+Provides: qtvirtualkeyboard-mkspecs
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: bba64accc3f1fb98f2efb37cd5d3b378
+SHA256sum: 6030bfbd590fcaeaca0f3257f78efa4fe229aea6ee02d66e1f8944c92e8b335c
+Size: 1138
+Filename: libqt5virtualkeyboard-mkspecs_5.15.16+git0+365f79ee89-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtvirtualkeyboard_git.bb
+Description: qtvirtualkeyboard version 5.15.16+git-r0
+OE: qtvirtualkeyboard
+HomePage: https://gisclub.tv
+License: GPL-3.0-only | The-Qt-Company-Commercial
+Priority: optional
+
+Package: libqt5virtualkeyboard-plugins
+Version: 5.15.16+git0+365f79ee89-r0
+Depends: libc6 (>= 2.41+git0+0c76c95162), libgcc1 (>= 15.1.0), libqt5virtualkeyboard5 (>= 5.15.16+git0+365f79ee89), libstdc++6 (>= 15.1.0), qtbase (>= 5.15.16+git0+8ad94db938), qtdeclarative (>= 5.15.16+git0+abe4729ea8)
+Provides: qtvirtualkeyboard-plugins
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: b2d2a230b648cf6bc71d0f19bcac0f48
+SHA256sum: ed87a399c38c30a7583d52d5fd3a21cc35892528565ca3a3fd4573888d38501b
+Size: 2332036
+Filename: libqt5virtualkeyboard-plugins_5.15.16+git0+365f79ee89-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtvirtualkeyboard_git.bb
+Description: qtvirtualkeyboard version 5.15.16+git-r0
+OE: qtvirtualkeyboard
+HomePage: https://gisclub.tv
+License: GPL-3.0-only | The-Qt-Company-Commercial
+Priority: optional
+
+Package: libqt5virtualkeyboard-qmlplugins
+Version: 5.15.16+git0+365f79ee89-r0
+Depends: libc6 (>= 2.41+git0+0c76c95162), libqt5svg5 (>= 5.15.16+git0+ba3671e467), libqt5virtualkeyboard5 (>= 5.15.16+git0+365f79ee89), libstdc++6 (>= 15.1.0), qtbase (>= 5.15.16+git0+8ad94db938), qtdeclarative (>= 5.15.16+git0+abe4729ea8)
+Provides: qtvirtualkeyboard-qmlplugins
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 16e9b691cb69e8d9e54937c957dffe2e
+SHA256sum: 238a2102944bad4beb3a8bc61766107290e885b2f58edf8a721740fe32a64673
+Size: 45272
+Filename: libqt5virtualkeyboard-qmlplugins_5.15.16+git0+365f79ee89-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtvirtualkeyboard_git.bb
+Description: qtvirtualkeyboard version 5.15.16+git-r0
+OE: qtvirtualkeyboard
+HomePage: https://gisclub.tv
+License: GPL-3.0-only | The-Qt-Company-Commercial
+Priority: optional
+
+Package: libqt5virtualkeyboard5
+Version: 5.15.16+git0+365f79ee89-r0
+Depends: libc6 (>= 2.41+git0+0c76c95162), libstdc++6 (>= 15.1.0), qtbase (>= 5.15.16+git0+8ad94db938), qtdeclarative (>= 5.15.16+git0+abe4729ea8)
+Provides: qtvirtualkeyboard
+Recommends: qtvirtualkeyboard-dictionaries, qtvirtualkeyboard-plugins, qtvirtualkeyboard-qmlplugins
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 9a40c9b3ef3eb7f22ea5deef7f2eae61
+SHA256sum: 752ad1e653bdd9a95cb98a7faaa056fcc2f0cbe5f3a37cdc14979c48f904dc62
+Size: 8431980
+Filename: libqt5virtualkeyboard5_5.15.16+git0+365f79ee89-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qtvirtualkeyboard_git.bb
+Description: qtvirtualkeyboard version 5.15.16+git-r0
+OE: qtvirtualkeyboard
+HomePage: https://gisclub.tv
+License: GPL-3.0-only | The-Qt-Company-Commercial
 Priority: optional
 
 Package: libre2-11
@@ -84897,9 +85370,9 @@ Recommends: glibc-dbg, libavformat-dbg, libavutil-dbg, libexif-dbg, libflac-dbg,
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 4ffd58c59f915a7ed8dec57668525475
-SHA256sum: 2687c813fe4eb8ef42aead36d10f7b17ddcc6bf5231fccec56e532bc16aceda5
-Size: 244672
+MD5Sum: 8a373f351983f1a3c112f3eab75d15a6
+SHA256sum: 273df484e89ab7f1aa11ae2d90a8eeda0679914be6da75260895be9569469965
+Size: 244670
 Filename: minidlna-dbg_1.1.5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minidlna_1.1.5.bb
 Description: lightweight DLNA/UPnP-AV server targeted at embedded systems - Debugging files
@@ -84948,9 +85421,9 @@ Recommends: update-rc.d
 Section: network
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: fad939492f0ad36c415e35644d6eac5b
-SHA256sum: fed3f229e4357d1770335e49f9be362c6cf9b43a9e67d7c2c4b1fff599dcc79d
-Size: 125782
+MD5Sum: 0d730bc174d5ae21027b7e45ab3541c9
+SHA256sum: 6400fad7a9bbf57e3457af3f0d34844eeb84ff1d065d2d7ea274ac13d26762eb
+Size: 125784
 Filename: minidlna_1.1.5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minidlna_1.1.5.bb
 Description: lightweight DLNA/UPnP-AV server targeted at embedded systems
@@ -85028,15 +85501,15 @@ License: GPL-2.0-or-later
 Priority: required
 
 Package: minisatip-dbg
-Version: 2.0.37-git1842+e505a960+e505a96512-r0
+Version: 2.0.39-git1843+856996b0+856996be04-r0
 Recommends: glibc-dbg, libcrypto-dbg, libdvbcsa-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 54ab36b1370f21d042247b7fe074f2ce
-SHA256sum: 4f2d399da8a63b57a819150e133ac68f5b510249feab639ee143f6146123231f
-Size: 689708
-Filename: minisatip-dbg_2.0.37-git1842+e505a960+e505a96512-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 14698992800ecc87e921789e08de23bf
+SHA256sum: c2a01a2951d15c769344804e5263fcc446ac457521ce4e50a79875da679747f5
+Size: 703524
+Filename: minisatip-dbg_2.0.39-git1843+856996b0+856996be04-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: SAT>IP server - Debugging files
 OE: minisatip
@@ -85045,15 +85518,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip-dev
-Version: 2.0.37-git1842+e505a960+e505a96512-r0
-Recommends: glibc-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 2.0.37-git1842+e505a960+e505a96512-r0), openssl-dev
+Version: 2.0.39-git1843+856996b0+856996be04-r0
+Recommends: glibc-dev, libcrypto-dev, libdvbcsa-dev, libgcc-dev, libstdc++-dev, minisatip (= 2.0.39-git1843+856996b0+856996be04-r0), openssl-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: 3041da70342535a3696fca71c22a7935
-SHA256sum: ac0b49bf80796eafbe35f007c9bdceae602f7f9e1544c8cb86c25436d66acb6d
+MD5Sum: e8c41bc00042bddd6d32469b537c6740
+SHA256sum: 253a15420d34f1fa8eef5cdfc81a4560b6bafea0dacb4230a7c7d53a8299dd8a
 Size: 674
-Filename: minisatip-dev_2.0.37-git1842+e505a960+e505a96512-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: minisatip-dev_2.0.39-git1843+856996b0+856996be04-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: SAT>IP server - Development files
 OE: minisatip
@@ -85062,15 +85535,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: minisatip
-Version: 2.0.37-git1842+e505a960+e505a96512-r0
+Version: 2.0.39-git1843+856996b0+856996be04-r0
 Depends: libc6 (>= 2.41+git0+0c76c95162), libcrypto3 (>= 3.5.0), libdvbcsa1 (>= 1.1.0+git60+f25351d0+f25351d705), libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0), openssl
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: catalinii
-MD5Sum: b7448c63d33f2d2ff6fd477fcd2c688b
-SHA256sum: c1cb1c23e7d5baafab35ac3430fa52dd281e1ac7137fc2e3dc61e01355f8cfcc
-Size: 374298
-Filename: minisatip_2.0.37-git1842+e505a960+e505a96512-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 864b5118fdc51ea2b4f87e58288a136b
+SHA256sum: 9d33dc7dd84b5eb6fb4e0c3c3f8f1cd69b9a563711511f0441f77b03f4aece74
+Size: 374546
+Filename: minisatip_2.0.39-git1843+856996b0+856996be04-r0_cortexa15hf-neon-vfpv4.ipk
 Source: minisatip.bb
 Description: SAT>IP server
 OE: minisatip
@@ -87944,15 +88417,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: odhcp6c-dbg
-Version: git344+8aa8b700+8aa8b70672-r0
+Version: git357+77e1ae20+77e1ae21e6-r0
 Recommends: glibc-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 2f5cc74cb73818bde240da2446d9f6da
-SHA256sum: dd0da22e086e23490c97c8a6b58076a483fef0758819dad540f50777e7486750
-Size: 158770
-Filename: odhcp6c-dbg_git344+8aa8b700+8aa8b70672-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: bb54bedf9d1657b67c6a0b01e9ea3f37
+SHA256sum: ccee3d2c35316c757d4c9887cfa2d5a38c303c69d3e83e3dcf6a4de2b972470d
+Size: 159608
+Filename: odhcp6c-dbg_git357+77e1ae20+77e1ae21e6-r0_cortexa15hf-neon-vfpv4.ipk
 Source: odhcp6c.bb
 Description: Openwrt DHCPv6 Client - Debugging files
 OE: odhcp6c
@@ -87961,15 +88434,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: odhcp6c-dev
-Version: git344+8aa8b700+8aa8b70672-r0
-Recommends: glibc-dev, odhcp6c (= git344+8aa8b700+8aa8b70672-r0)
+Version: git357+77e1ae20+77e1ae21e6-r0
+Recommends: glibc-dev, odhcp6c (= git357+77e1ae20+77e1ae21e6-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 9890c7931e016c82ef9e71fbb25abbf5
-SHA256sum: 8cce5c612e85c6b6eeb6fc42a2fe528463660a188deb7ab6741a494b57858619
+MD5Sum: fc694f1d899cbae5fcce605019d1d5b5
+SHA256sum: 60978afb97130b889cb2f634f30f4433317f97ccf23c1ed4f3ee4b04e969c67e
 Size: 664
-Filename: odhcp6c-dev_git344+8aa8b700+8aa8b70672-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: odhcp6c-dev_git357+77e1ae20+77e1ae21e6-r0_cortexa15hf-neon-vfpv4.ipk
 Source: odhcp6c.bb
 Description: Openwrt DHCPv6 Client - Development files
 OE: odhcp6c
@@ -87978,17 +88451,17 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: odhcp6c
-Version: git344+8aa8b700+8aa8b70672-r0
+Version: git357+77e1ae20+77e1ae21e6-r0
 Depends: libc6 (>= 2.41+git0+0c76c95162)
 Replaces: ndisc6-rdnssd
 Conflicts: ndisc6-rdnssd
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 63b23372a76cdb485de46a1ee5f5e4b1
-SHA256sum: d3ac9a35ff5c4c304c453455e6cb05416a4624efb75273e19cb0432b62a186d3
-Size: 31394
-Filename: odhcp6c_git344+8aa8b700+8aa8b70672-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 1e588591215571cc6592effa7634a673
+SHA256sum: 1cc2dd94b8ae008412cbaddf07d47192116ecf49f2749206b085d85449119ae3
+Size: 31510
+Filename: odhcp6c_git357+77e1ae20+77e1ae21e6-r0_cortexa15hf-neon-vfpv4.ipk
 Source: odhcp6c.bb
 Description: Openwrt DHCPv6 Client
 OE: odhcp6c
@@ -90299,15 +90772,15 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: pcsc-tools-dbg
-Version: 1.6.2+git1672+1f8beaf0+1f8beaf704-r0
+Version: 1.6.2+git1675+984bd230+984bd23565-r0
 Recommends: glibc-dbg, pcsc-lite-lib-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: e395aa9e749eca755d11c949bc272e03
-SHA256sum: 1e74ee197a5f2524835da3aa84816e6ff0991e3f0e0f63b3ea6c3032520fb799
-Size: 14850
-Filename: pcsc-tools-dbg_1.6.2+git1672+1f8beaf0+1f8beaf704-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ae0b7137e86bded99849fb91f76b5909
+SHA256sum: 4bfb36e769a2fe35f2a06fb62368708ccce39d53f930c42430a02fc1c9e3725a
+Size: 14848
+Filename: pcsc-tools-dbg_1.6.2+git1675+984bd230+984bd23565-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools_git.bb
 Description: PCSC tools - Debugging files
 OE: pcsc-tools
@@ -90316,15 +90789,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools-dev
-Version: 1.6.2+git1672+1f8beaf0+1f8beaf704-r0
-Recommends: autoconf-archive-dev, glibc-dev, pcsc-lite-dev, pcsc-lite-lib-dev, pcsc-tools (= 1.6.2+git1672+1f8beaf0+1f8beaf704-r0)
+Version: 1.6.2+git1675+984bd230+984bd23565-r0
+Recommends: autoconf-archive-dev, glibc-dev, pcsc-lite-dev, pcsc-lite-lib-dev, pcsc-tools (= 1.6.2+git1675+984bd230+984bd23565-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 809f977eba63d798cc4c0d2dd5375a96
-SHA256sum: 94d8d62acbae84fd928fb49da88227ba272b4958cb10e3cc5b1f24a7a6b6ca76
-Size: 680
-Filename: pcsc-tools-dev_1.6.2+git1672+1f8beaf0+1f8beaf704-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 2be79a88aa7a59f9027d573feeb05e19
+SHA256sum: ee2ed10b16e21fdb3b57823c022c139a1ff92f254c5c989f9286d51c2a40d8af
+Size: 682
+Filename: pcsc-tools-dev_1.6.2+git1675+984bd230+984bd23565-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools_git.bb
 Description: PCSC tools - Development files
 OE: pcsc-tools
@@ -90333,14 +90806,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools-doc
-Version: 1.6.2+git1672+1f8beaf0+1f8beaf704-r0
+Version: 1.6.2+git1675+984bd230+984bd23565-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 3616ed9fc6cbc1a12a76104a3c0eb74f
-SHA256sum: 454fe69c944cdc5ac3ac84618e1360e509005547c6ac677ad65006e76d278836
-Size: 3542
-Filename: pcsc-tools-doc_1.6.2+git1672+1f8beaf0+1f8beaf704-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f476afd3ea9e0e0dc54f550dc12e6096
+SHA256sum: 385e573876a7c3def2fb60b4a7fcebaeb4f735ed6df1a52a7cf9c66f0e077526
+Size: 3544
+Filename: pcsc-tools-doc_1.6.2+git1675+984bd230+984bd23565-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools_git.bb
 Description: PCSC tools - Documentation files
 OE: pcsc-tools
@@ -90349,16 +90822,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools-locale-fr
-Version: 1.6.2+git1672+1f8beaf0+1f8beaf704-r0
+Version: 1.6.2+git1675+984bd230+984bd23565-r0
 Provides: fr-translation, pcsc-tools-locale
 Recommends: virtual-locale-fr
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 047362ad78435fee0de991f7d8a4b597
-SHA256sum: 7c434f80840d786d29e5a683178be5770f7086527acacbc88b9145598279f388
-Size: 3110
-Filename: pcsc-tools-locale-fr_1.6.2+git1672+1f8beaf0+1f8beaf704-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: bd3be202da6fb1cc679c6ea28f005e84
+SHA256sum: d94595405d4972ab4e21361a82d96c9117c64861014d3368d7f208ee19db2931
+Size: 3112
+Filename: pcsc-tools-locale-fr_1.6.2+git1675+984bd230+984bd23565-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools_git.bb
 Description: PCSC tools - fr translations
 OE: pcsc-tools
@@ -90367,16 +90840,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools-locale-ru
-Version: 1.6.2+git1672+1f8beaf0+1f8beaf704-r0
+Version: 1.6.2+git1675+984bd230+984bd23565-r0
 Provides: pcsc-tools-locale, ru-translation
 Recommends: virtual-locale-ru
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: c8c1af1e41c2f3740a19623ef0b224ba
-SHA256sum: 3dff219e041c6cf4965c5602b6e55b086470ffe2ee2aab99ff1e642294b8f514
-Size: 3998
-Filename: pcsc-tools-locale-ru_1.6.2+git1672+1f8beaf0+1f8beaf704-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: dbc4ef1e1119e8daa3347c9b042c7a52
+SHA256sum: 1f6e4e0992b12d793389c30b16012328a3aa49f8e9f6919de421e57042236214
+Size: 4000
+Filename: pcsc-tools-locale-ru_1.6.2+git1675+984bd230+984bd23565-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools_git.bb
 Description: PCSC tools - ru translations
 OE: pcsc-tools
@@ -90385,15 +90858,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: pcsc-tools
-Version: 1.6.2+git1672+1f8beaf0+1f8beaf704-r0
+Version: 1.6.2+git1675+984bd230+984bd23565-r0
 Depends: libc6 (>= 2.41+git0+0c76c95162), libpcsclite1 (>= 2.0.3), pcsc-lite
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: b23e96ddb642b16f7258ce5959e2f787
-SHA256sum: c171da6fc42e73a3b0c3173e7c217a26d7e6316f8e77402dd9e91b81599adc65
-Size: 204276
-Filename: pcsc-tools_1.6.2+git1672+1f8beaf0+1f8beaf704-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b60bceedda6b01a6674f1b80d8f7dfca
+SHA256sum: 8d2b09c82b86ba0bb156b1fb58d42b4d652e56ed5ec7484c3daba04890657906
+Size: 205420
+Filename: pcsc-tools_1.6.2+git1675+984bd230+984bd23565-r0_cortexa15hf-neon-vfpv4.ipk
 Source: pcsc-tools_git.bb
 Description: PCSC tools
 OE: pcsc-tools
@@ -104188,6 +104661,73 @@ Description: Lightweight and minimal dumb-terminal emulation program
 OE: picocom
 HomePage: https://gitlab.com/wsakernel/picocom
 License: GPL-2.0-or-later
+Priority: optional
+
+Package: pm-utils-dbg
+Version: 1.4.1-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 8165dfe737f489e24aaa1bfde947e969
+SHA256sum: 68b0792b215b4b60793e5ac60930add6dcece4b95ade5520956de2a8747ec166
+Size: 13762
+Filename: pm-utils-dbg_1.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: pm-utils_1.4.1.bb
+Description: Utilities and scripts for power management - Debugging files
+OE: pm-utils
+HomePage: http://pm-utils.freedesktop.org/wiki/
+License: GPL-2.0-only
+Priority: optional
+
+Package: pm-utils-dev
+Version: 1.4.1-r0
+Recommends: bash-dev, glibc-dev, pm-utils (= 1.4.1-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: f870439bc401ae149b60ce43934fe312
+SHA256sum: f3c43fb5024ddcf1e83c81b1c495a8ddbe7f9b53a633ece3a826c5ac2cf279b1
+Size: 998
+Filename: pm-utils-dev_1.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: pm-utils_1.4.1.bb
+Description: Utilities and scripts for power management - Development files
+OE: pm-utils
+HomePage: http://pm-utils.freedesktop.org/wiki/
+License: GPL-2.0-only
+Priority: optional
+
+Package: pm-utils-doc
+Version: 1.4.1-r0
+Section: doc
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: a88d6233bcf680a6944128cae7199865
+SHA256sum: 34bd85b275f33ec2aa81a055ddfa26b766fc39393ba4d830888c48cbc36017ab
+Size: 5692
+Filename: pm-utils-doc_1.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: pm-utils_1.4.1.bb
+Description: Utilities and scripts for power management - Documentation files
+OE: pm-utils
+HomePage: http://pm-utils.freedesktop.org/wiki/
+License: GPL-2.0-only
+Priority: optional
+
+Package: pm-utils
+Version: 1.4.1-r0
+Depends: bash, libc6 (>= 2.41+git0+0c76c95162)
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: a774a62c9ca9e0b2e7290f29026d17c9
+SHA256sum: a47028558fe357049987121868a0c33e9692a3b39cbcb31899596a221fc4e892
+Size: 29448
+Filename: pm-utils_1.4.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: pm-utils_1.4.1.bb
+Description: Utilities and scripts for power management
+OE: pm-utils
+HomePage: http://pm-utils.freedesktop.org/wiki/
+License: GPL-2.0-only
 Priority: optional
 
 Package: ppp-dbg
@@ -120106,14 +120646,14 @@ License: Apache-2.0
 Priority: optional
 
 Package: python3-youtube-dl-dbg
-Version: 2024.07.11-nightly-git18947+82552fa0+82552faba6-r0
+Version: 2024.07.11-nightly-git18951+1e109aa0+1e109aaee1-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 9a16dc9fbd8be190cf6785d8d5548b5e
-SHA256sum: 2beeb3cc7fe3e91836039ce0f64ba5e06fa419cb0fe5b7a436acb4184a099287
+MD5Sum: bcf689b64f102d2eb48f6fa4f2b80503
+SHA256sum: 515af851b6b84e33cc316e7d6b9f3ab023216cf50b5d8a37c4346c0778a930fd
 Size: 742
-Filename: python3-youtube-dl-dbg_2024.07.11-nightly-git18947+82552fa0+82552faba6-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: python3-youtube-dl-dbg_2024.07.11-nightly-git18951+1e109aa0+1e109aaee1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Debugging files
 OE: python3-youtube-dl
@@ -120122,15 +120662,15 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: python3-youtube-dl-dev
-Version: 2024.07.11-nightly-git18947+82552fa0+82552faba6-r0
-Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-youtube-dl (= 2024.07.11-nightly-git18947+82552fa0+82552faba6-r0)
+Version: 2024.07.11-nightly-git18951+1e109aa0+1e109aaee1-r0
+Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-youtube-dl (= 2024.07.11-nightly-git18951+1e109aa0+1e109aaee1-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: dcb8dd38e83b094becd87c7a1dedfac4
-SHA256sum: 08ed751c824807359addd997afcded48b5cecc11eb1a9c2b9eb15f1579819cba
-Size: 836
-Filename: python3-youtube-dl-dev_2024.07.11-nightly-git18947+82552fa0+82552faba6-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 44de6627d05a072db677b9b1a8ddc4f6
+SHA256sum: a7dd271949384d4b1de3dcc952907ad5d294d447036609f43ae10eaa913d8a1f
+Size: 834
+Filename: python3-youtube-dl-dev_2024.07.11-nightly-git18951+1e109aa0+1e109aaee1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Development files
 OE: python3-youtube-dl
@@ -120139,15 +120679,15 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: python3-youtube-dl-src
-Version: 2024.07.11-nightly-git18947+82552fa0+82552faba6-r0
+Version: 2024.07.11-nightly-git18951+1e109aa0+1e109aaee1-r0
 Depends: python3-youtube-dl
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 62457182666cdc9c6593a88dca53cce9
-SHA256sum: ca68511284d5813d31462d1c7a489f88db29dcbf5c684980d1031501eb441035
-Size: 1543718
-Filename: python3-youtube-dl-src_2024.07.11-nightly-git18947+82552fa0+82552faba6-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b97b522e1905b13da32e90eed5f9a224
+SHA256sum: 1af2432d231c05903420a10bd1e6a6b2e1877e18f6506738d0016b73d5392b0d
+Size: 1543962
+Filename: python3-youtube-dl-src_2024.07.11-nightly-git18951+1e109aa0+1e109aaee1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-youtube-dl.bb
 Description: Download videos from YouTube (and more sites) - Source files
 OE: python3-youtube-dl
@@ -120156,15 +120696,15 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: python3-youtube-dl
-Version: 2024.07.11-nightly-git18947+82552fa0+82552faba6-r0
+Version: 2024.07.11-nightly-git18951+1e109aa0+1e109aaee1-r0
 Depends: python3-core, python3-ctypes, python3-email, python3-gdata-python3, python3-html, python3-unixadmin
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 36ad5d1863218484e3f95d3acf785e69
-SHA256sum: 825e464d4b30138577cdc036e98d056062e2963c867bcf9681bff431e594d7df
-Size: 2783350
-Filename: python3-youtube-dl_2024.07.11-nightly-git18947+82552fa0+82552faba6-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d0116bbd5b824fde5c56e137c69e045d
+SHA256sum: baafc8178c5fa6a67b2c92900096de3f12c0a0200b9f4f7f1934da4e603cd4af
+Size: 2783382
+Filename: python3-youtube-dl_2024.07.11-nightly-git18951+1e109aa0+1e109aaee1-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-youtube-dl.bb
 Description: Download videos from YouTube (and more sites)
 OE: python3-youtube-dl
@@ -120173,14 +120713,14 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: python3-yt-dlp-dbg
-Version: 2025.09.26-git23508+bd5ed900+bd5ed90419-r0
+Version: 2025.10.22-git23537+73922e60+73922e66e4-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 9c29be4e82a0a3dcc3c70fd45a09dea5
-SHA256sum: 3c9d196b5cfd506b0351924bc86df4f1ba6e578fd829a91c1b3fe6bbd298b7c1
+MD5Sum: 82754a05554d4d73a8fc19e1daa30a15
+SHA256sum: 2b38aa944bdff0ed4c1c7d8f87110cf127197c03fce15802e0d4a6ac393e25a0
 Size: 720
-Filename: python3-yt-dlp-dbg_2025.09.26-git23508+bd5ed900+bd5ed90419-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: python3-yt-dlp-dbg_2025.10.22-git23537+73922e60+73922e66e4-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Debugging files
 OE: python3-yt-dlp
@@ -120189,15 +120729,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-dev
-Version: 2025.09.26-git23508+bd5ed900+bd5ed90419-r0
-Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2025.09.26-git23508+bd5ed900+bd5ed90419-r0)
+Version: 2025.10.22-git23537+73922e60+73922e66e4-r0
+Recommends: bash-completion-dev, libxml2-dev, python3-core-dev, python3-ctypes-dev, python3-dev, python3-email-dev, python3-gdata-python3-dev, python3-html-dev, python3-unixadmin-dev, python3-yt-dlp (= 2025.10.22-git23537+73922e60+73922e66e4-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: d9fd388f79bcca82b59b526007e409b6
-SHA256sum: 1794d88e4399e62b328a9f2edf5bb01927462843b56620f05bcfb5110191095e
+MD5Sum: fb61dc04631346ebd11f0ede9e2eaee7
+SHA256sum: 2c99e54b89ead64c76523e6eaebd70b8728aaa3667bb2278d599005ff4572a9a
 Size: 814
-Filename: python3-yt-dlp-dev_2025.09.26-git23508+bd5ed900+bd5ed90419-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: python3-yt-dlp-dev_2025.10.22-git23537+73922e60+73922e66e4-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Development files
 OE: python3-yt-dlp
@@ -120206,15 +120746,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp-src
-Version: 2025.09.26-git23508+bd5ed900+bd5ed90419-r0
+Version: 2025.10.22-git23537+73922e60+73922e66e4-r0
 Depends: python3-yt-dlp
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: f9660d9fc29b47e16ec811cc2dd565e9
-SHA256sum: ca1864c69b95f9c6bf2a4b7e08d4d8c7684786b35dc2855bca7dbe818105f39b
-Size: 2473418
-Filename: python3-yt-dlp-src_2025.09.26-git23508+bd5ed900+bd5ed90419-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 302054425f88f5557cad48aec6cf5772
+SHA256sum: 7f87243c3e08d86a3a23dc5cb9cfc767c4fdc04ab9a5f41700f95291c97e8f89
+Size: 2479238
+Filename: python3-yt-dlp-src_2025.10.22-git23537+73922e60+73922e66e4-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes - Source files
 OE: python3-yt-dlp
@@ -120223,15 +120763,15 @@ License: Unlicense
 Priority: optional
 
 Package: python3-yt-dlp
-Version: 2025.09.26-git23508+bd5ed900+bd5ed90419-r0
+Version: 2025.10.22-git23537+73922e60+73922e66e4-r0
 Depends: python3-core, python3-ctypes, python3-email, python3-gdata-python3, python3-html, python3-unixadmin
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: 843d25f71669e5830b24d1b6a60143c1
-SHA256sum: 09d96202e648f961d8a38de63ea1dd9ca0d6a5c5fae0ca746ebea7fd8900bc50
-Size: 4557340
-Filename: python3-yt-dlp_2025.09.26-git23508+bd5ed900+bd5ed90419-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5fbb6506936ec897208b16117131e930
+SHA256sum: 0fe49b134d9f4ef39fdba1571bbc8b92851012ecc8bb5809fcaae88f16a50348
+Size: 4568484
+Filename: python3-yt-dlp_2025.10.22-git23537+73922e60+73922e66e4-r0_cortexa15hf-neon-vfpv4.ipk
 Source: python3-yt-dlp.bb
 Description: A youtube-dl fork with additional features and fixes
 OE: python3-yt-dlp
@@ -120505,6 +121045,57 @@ Description: QEMU wrapper script
 OE: qemuwrapper-cross
 HomePage: http://qemu.org
 License: MIT
+Priority: optional
+
+Package: qt-kiosk-browser-dbg
+Version: 0.0+git0+d42b7d9050-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg, qtbase-dbg, qtdeclarative-dbg, qtwebengine-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 1f3299a4c58b777ae75d86cf1222b6e6
+SHA256sum: eb46780bbc436f4a02f855934ca19a23caa3b0dd8061450b4380711ae2a5fb5c
+Size: 705958
+Filename: qt-kiosk-browser-dbg_0.0+git0+d42b7d9050-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qt-kiosk-browser_git.bb
+Description: Qt Kiosk Browser - Debugging files
+OE: qt-kiosk-browser
+HomePage: https://gisclub.tv
+License: GPL-3.0-only
+Priority: optional
+
+Package: qt-kiosk-browser-dev
+Version: 0.0+git0+d42b7d9050-r0
+Recommends: glibc-dev, liberation-fonts-dev, libgcc-dev, libstdc++-dev, qt-kiosk-browser (= 0.0+git0+d42b7d9050-r0), qtbase-dev, qtdeclarative-dev, qtdeclarative-qmlplugins-dev, qtquickcontrols-qmlplugins-dev, qtvirtualkeyboard-dev, qtwebengine-dev, qtwebengine-qmlplugins-dev
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 11fbbf251e38141a9d9335d3b7c8c846
+SHA256sum: 8d0025e6b0b34fa45fac7c5406739191bcf69bd202a3412e8252b120d7e99508
+Size: 764
+Filename: qt-kiosk-browser-dev_0.0+git0+d42b7d9050-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qt-kiosk-browser_git.bb
+Description: Qt Kiosk Browser - Development files
+OE: qt-kiosk-browser
+HomePage: https://gisclub.tv
+License: GPL-3.0-only
+Priority: optional
+
+Package: qt-kiosk-browser
+Version: 0.0+git0+d42b7d9050-r0
+Depends: libc6 (>= 2.41+git0+0c76c95162), liberation-fonts, libgcc1 (>= 15.1.0), libstdc++6 (>= 15.1.0), qtbase (>= 5.15.16+git0+8ad94db938), qtdeclarative (>= 5.15.16+git0+abe4729ea8), qtdeclarative-qmlplugins, qtquickcontrols-qmlplugins, qtvirtualkeyboard, qtwebengine (>= 5.15.17+git0+4d9691515f_480e246dfe), qtwebengine-qmlplugins
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: b646196734d806047ab99d6017a66b82
+SHA256sum: 760ec636a1a1b0f4d44ea135854e0f6cd1640367385cce9a329b22fe40942393
+Size: 10966
+Filename: qt-kiosk-browser_0.0+git0+d42b7d9050-r0_cortexa15hf-neon-vfpv4.ipk
+Source: qt-kiosk-browser_git.bb
+Description: Qt Kiosk Browser
+OE: qt-kiosk-browser
+HomePage: https://gisclub.tv
+License: GPL-3.0-only
 Priority: optional
 
 Package: quota-dbg
@@ -120844,15 +121435,15 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: redsea-dbg
-Version: 1.2.0-git1122+30f63aa0+30f63aa8c8-r0
+Version: 1.2.0-git1125+cad0b690+cad0b697d5-r0
 Recommends: glibc-dbg, libgcc-dbg, libsndfile1-dbg, libstdc++-dbg, liquid-dsp-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Oona Räisänen <windyoona@gmail.com>
-MD5Sum: 9e213a27d2b27ef2e274485b034179bb
-SHA256sum: d454758312555a9dd84342377b9e3ddea0d9afb930070426d79ea161ffa4b638
-Size: 2743488
-Filename: redsea-dbg_1.2.0-git1122+30f63aa0+30f63aa8c8-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 76ac7861f002053be5ad3b6886707a33
+SHA256sum: 71f9d5c11a97199c9b7ca835ee1d70519205414e27526349e587c8d7ccb85a60
+Size: 2140386
+Filename: redsea-dbg_1.2.0-git1125+cad0b690+cad0b697d5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: redsea_git.bb
 Description: A lightweight RDS decoder - Debugging files
 OE: redsea
@@ -120861,15 +121452,15 @@ License: MIT
 Priority: optional
 
 Package: redsea-dev
-Version: 1.2.0-git1122+30f63aa0+30f63aa8c8-r0
-Recommends: glibc-dev, libgcc-dev, libsndfile1-dev, libstdc++-dev, liquid-dsp-dev, nlohmann-json-dev, redsea (= 1.2.0-git1122+30f63aa0+30f63aa8c8-r0)
+Version: 1.2.0-git1125+cad0b690+cad0b697d5-r0
+Recommends: glibc-dev, libgcc-dev, libsndfile1-dev, libstdc++-dev, liquid-dsp-dev, nlohmann-json-dev, redsea (= 1.2.0-git1125+cad0b690+cad0b697d5-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Oona Räisänen <windyoona@gmail.com>
-MD5Sum: 2465ddd8fc93b25f132d2403d12a9c16
-SHA256sum: 8f76eed6e2e1bdd7ea22747035cf647a3b54a20072a784b58e626c4bbf8d8856
-Size: 864
-Filename: redsea-dev_1.2.0-git1122+30f63aa0+30f63aa8c8-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d19e6a6b765f3c3ddfcd6a6b6d33bde2
+SHA256sum: 49b41bd89994044f36d0ecd8e01580c0003fc039da5721d7e9ed2dfd85f435e7
+Size: 862
+Filename: redsea-dev_1.2.0-git1125+cad0b690+cad0b697d5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: redsea_git.bb
 Description: A lightweight RDS decoder - Development files
 OE: redsea
@@ -120878,15 +121469,15 @@ License: MIT
 Priority: optional
 
 Package: redsea
-Version: 1.2.0-git1122+30f63aa0+30f63aa8c8-r0
+Version: 1.2.0-git1125+cad0b690+cad0b697d5-r0
 Depends: libc6 (>= 2.41+git0+0c76c95162), libgcc1 (>= 15.1.0), libsndfile1 (>= 1.2.2), libstdc++6 (>= 15.1.0), liquid-dsp (>= 1.3.2a+git6728+0add7750+0add775ad4)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: Oona Räisänen <windyoona@gmail.com>
-MD5Sum: dabefdfd0abe2b293cfddad32c40b276
-SHA256sum: 5867406a34c703d84fc69b8f4b7a21db595166db3e58fa8af9766c77ab0db3f2
-Size: 226526
-Filename: redsea_1.2.0-git1122+30f63aa0+30f63aa8c8-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: dd66bdc370a9e8a9705d3cee6c4ff5e4
+SHA256sum: 553cd74310a118a2a3b2a8e36495e6edb583c7c5722775b315d13def2108a65d
+Size: 199970
+Filename: redsea_1.2.0-git1125+cad0b690+cad0b697d5-r0_cortexa15hf-neon-vfpv4.ipk
 Source: redsea_git.bb
 Description: A lightweight RDS decoder
 OE: redsea
@@ -121098,15 +121689,15 @@ License: GPL-3.0-or-later
 Priority: optional
 
 Package: rtl-sdr-dbg
-Version: 2.0.1+gitNone0+619ac3186e-r0
+Version: 2.0.1+gitNone0+ede3963a0c-r0
 Recommends: glibc-dbg, libusb1-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: https://osmocom.org/projects/rtl-sdr/wiki
-MD5Sum: 5ff641b861dadeced124c5adf0e90c96
-SHA256sum: 4ab51a1d2630c745b9d46dbb4e2526e1399a9f62785f617ae2813af0ba35d01e
-Size: 158796
-Filename: rtl-sdr-dbg_2.0.1+gitNone0+619ac3186e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 1391313c6f714d78ce1b27fe074661bf
+SHA256sum: 050a468b5eeeeb5adad587fe41b60ea24319ee0a04910faed268245d28da4612
+Size: 158792
+Filename: rtl-sdr-dbg_2.0.1+gitNone0+ede3963a0c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rtl-sdr_git.bb
 Description: Software to turn the RTL2832U into an SDR - Debugging files
 OE: rtl-sdr
@@ -121115,16 +121706,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: rtl-sdr-dev
-Version: 2.0.1+gitNone0+619ac3186e-r0
+Version: 2.0.1+gitNone0+ede3963a0c-r0
 Depends: rtl-sdr
-Recommends: glibc-dev, libusb1-dev, rtl-sdr (= 2.0.1+gitNone0+619ac3186e-r0)
+Recommends: glibc-dev, libusb1-dev, rtl-sdr (= 2.0.1+gitNone0+ede3963a0c-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: https://osmocom.org/projects/rtl-sdr/wiki
-MD5Sum: 377fb4773b73e11126b088334721323f
-SHA256sum: a30a574d592d7c5c3d74e5978ec19a0aa11ec112357e0b7d77d458f732b9d129
-Size: 7614
-Filename: rtl-sdr-dev_2.0.1+gitNone0+619ac3186e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6c0afb95193b7f431d777528a6d41ca3
+SHA256sum: 746ae20c36093bcdd59ccc386c63a93d145e00af2b4d1f30bf49f756dce4ed6a
+Size: 7612
+Filename: rtl-sdr-dev_2.0.1+gitNone0+ede3963a0c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rtl-sdr_git.bb
 Description: Software to turn the RTL2832U into an SDR - Development files
 OE: rtl-sdr
@@ -121133,15 +121724,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: rtl-sdr-staticdev
-Version: 2.0.1+gitNone0+619ac3186e-r0
-Depends: rtl-sdr-dev (= 2.0.1+gitNone0+619ac3186e-r0)
+Version: 2.0.1+gitNone0+ede3963a0c-r0
+Depends: rtl-sdr-dev (= 2.0.1+gitNone0+ede3963a0c-r0)
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: https://osmocom.org/projects/rtl-sdr/wiki
-MD5Sum: 551fd5ff95c5c47f7000a2ccc2849168
-SHA256sum: dac847f2ce9dc8ddb2a4f0b1d947c2fbbd3314d6794cd29488cc219f924f2919
-Size: 94446
-Filename: rtl-sdr-staticdev_2.0.1+gitNone0+619ac3186e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5e741ff8d41d4d346097839c5b6830c3
+SHA256sum: 7335e6546041c60e14deaf884b27895e366b498b94bbea15429d8e92e03a454e
+Size: 94448
+Filename: rtl-sdr-staticdev_2.0.1+gitNone0+ede3963a0c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rtl-sdr_git.bb
 Description: Software to turn the RTL2832U into an SDR - Development files (Static Libraries)
 OE: rtl-sdr
@@ -121150,15 +121741,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: rtl-sdr
-Version: 2.0.1+gitNone0+619ac3186e-r0
+Version: 2.0.1+gitNone0+ede3963a0c-r0
 Depends: libc6 (>= 2.41+git0+0c76c95162), libusb-1.0-0 (>= 1.0.29)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: https://osmocom.org/projects/rtl-sdr/wiki
-MD5Sum: 4ad09dec88c9316a22a983d10b196f2b
-SHA256sum: eacd9a24faf44ad20ca5f941bd5eb89cf391b2f835bed7c980e6d0568391eae5
-Size: 64326
-Filename: rtl-sdr_2.0.1+gitNone0+619ac3186e-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: fe7efc4400955dba5ec7e933a72dee7d
+SHA256sum: cc17227deeef68f6fb958f7ce3287a1797a689e138f6ebcd8a9e0aeb152aecb6
+Size: 64320
+Filename: rtl-sdr_2.0.1+gitNone0+ede3963a0c-r0_cortexa15hf-neon-vfpv4.ipk
 Source: rtl-sdr_git.bb
 Description: Software to turn the RTL2832U into an SDR
 OE: rtl-sdr
@@ -122673,15 +123264,15 @@ License: LGPL-2.1-or-later & GPL-2.0-or-later
 Priority: optional
 
 Package: streamlink
-Version: 7.6.0-git5610+8d7f4f2_0.0-git15+00ac6e40+8d7f4f22c9_00ac6e405b-r0
+Version: 7.6.0-git5645+ab1f365_0.0-git15+00ac6e40+ab1f365600_00ac6e405b-r0
 Depends: python3-core, python3-ctypes, python3-exceptiongroup, python3-futures3, python3-isodate, python3-lxml, python3-misc, python3-pkgutil, python3-pycountry, python3-pycryptodome, python3-pysocks, python3-requests, python3-shell, python3-singledispatch, python3-trio, python3-websocket-client
 Section: devel/python
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenFIX
-MD5Sum: cc52e67f34309ba076a35ea61ba5489c
-SHA256sum: 8dca134582bbf560104bbe85e4d2144486af7eace659329522689840e018ff5d
-Size: 1029068
-Filename: streamlink_7.6.0-git5610+8d7f4f2_0.0-git15+00ac6e40+8d7f4f22c9_00ac6e405b-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8f6c9f30ac2cd48a2daf383dd3ae5858
+SHA256sum: cc195fa393cb7c3975348ad5ba48be75e2af21109726c1d75de9bece29d62709
+Size: 1028512
+Filename: streamlink_7.6.0-git5645+ab1f365_0.0-git15+00ac6e40+ab1f365600_00ac6e405b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: streamlink_git.bb
 Description: CLI for extracting streams from various websites to a video player of your choosing
 OE: streamlink
@@ -126657,6 +127248,131 @@ Source: opkg-utils_0.7.0.bb
 Description: Utility for managing the alternatives system
 OE: opkg-utils
 HomePage: http://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: upower-dbg
+Version: 1.90.6-r0
+Recommends: glib-2.0-dbg, glibc-dbg, libgudev-dbg
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: cdd4b0e4e90c2134fccf1d940149192b
+SHA256sum: 12056da4da84f42c8cced34352b5758aa45f51875c05bef1339bbc6b46d4b90b
+Size: 343144
+Filename: upower-dbg_1.90.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: upower_1.90.6.bb
+Description: UPower is an abstraction for enumerating power devices - Debugging files
+OE: upower
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: upower-dev
+Version: 1.90.6-r0
+Depends: glib-2.0-dev, upower
+Recommends: dbus-dev, dbus-glib-dev, glib-2.0-dev, glibc-dev, gobject-introspection-dev, libgudev-dev, libusb1-dev, upower (= 1.90.6-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 88822f2342d8a81df2034b0069ccaef6
+SHA256sum: 468f664f97959ad5809586b79bce2f3db46f7e5dd99aa18af709c3fec66bb520
+Size: 14732
+Filename: upower-dev_1.90.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: upower_1.90.6.bb
+Description: UPower is an abstraction for enumerating power devices - Development files
+OE: upower
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: upower-locale-fr
+Version: 1.90.6-r0
+Provides: fr-translation, upower-locale
+Recommends: virtual-locale-fr
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 0b06a5211f1fbff4cec9e950ca8a2c68
+SHA256sum: 2a1c9c0b67625d06d05db5e7951df6ff3c0dec9d53532c3f5c9e4bd9e272ef0e
+Size: 1508
+Filename: upower-locale-fr_1.90.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: upower_1.90.6.bb
+Description: UPower is an abstraction for enumerating power devices - fr translations
+OE: upower
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: upower-locale-it
+Version: 1.90.6-r0
+Provides: it-translation, upower-locale
+Recommends: virtual-locale-it
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 21da995257994bda58bd36d14b801709
+SHA256sum: a79dfd9626c1e8ca0bace3eeb55571c35d0d684243661b45d48844e359f3c9dd
+Size: 1406
+Filename: upower-locale-it_1.90.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: upower_1.90.6.bb
+Description: UPower is an abstraction for enumerating power devices - it translations
+OE: upower
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: upower-locale-pl
+Version: 1.90.6-r0
+Provides: pl-translation, upower-locale
+Recommends: virtual-locale-pl
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 5e71d6c3a596f8808a6ace93c6fd0536
+SHA256sum: ecf62d62a283d9bb66072c9068057034d5364e3da68659cb377df1dac235a69a
+Size: 1490
+Filename: upower-locale-pl_1.90.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: upower_1.90.6.bb
+Description: UPower is an abstraction for enumerating power devices - pl translations
+OE: upower
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: upower-locale-sv
+Version: 1.90.6-r0
+Provides: sv-translation, upower-locale
+Recommends: virtual-locale-sv
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: adb608abe9fe9efdcc2fadc429926a3c
+SHA256sum: 9106aa71660a10d84428a0f0db85ed02dee8358601c0ba64469cef208151c39d
+Size: 1408
+Filename: upower-locale-sv_1.90.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: upower_1.90.6.bb
+Description: UPower is an abstraction for enumerating power devices - sv translations
+OE: upower
+HomePage: https://gisclub.tv
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: upower
+Version: 1.90.6-r0
+Depends: dbus, libc6 (>= 2.41+git0+0c76c95162), libglib-2.0-0 (>= 2.84.2), libgudev-1.0-0 (>= 238)
+Recommends: pm-utils
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OpenFIX
+MD5Sum: 351f327a19103ba766292989d2d283bc
+SHA256sum: d33ed305b57e525175ab5c4abe077fe1e78b8248c2f055be6a02d947cd160343
+Size: 106240
+Filename: upower_1.90.6-r0_cortexa15hf-neon-vfpv4.ipk
+Source: upower_1.90.6.bb
+Description: UPower is an abstraction for enumerating power devices
+OE: upower
+HomePage: https://gisclub.tv
 License: GPL-2.0-or-later
 Priority: optional
 
